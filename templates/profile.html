@@ -1,10 +1,15 @@
+<h2>Select Your Interests</h2>
 <form action="/submit_profile" method="post">
-    <h2>Select Your Interests</h2>
-    <form action="/submit_profile" method="post">
-        {% for tag in tags %}
+  {% for group, tags in tag_groups.items() %}
+    <details>
+      <summary><strong>{{ group }}</strong></summary>
+      {% for tag in tags %}
         <label>
-            <input type="checkbox" name="tags" value="{{ tag }}"> {{ tag.title() }}
+          <input type="checkbox" name="tags" value="{{ tag }}"> {{ tag.title() }}
         </label><br>
-        {% endfor %}
-        <button type="submit">Start Swiping</button>
-    </form>
+      {% endfor %}
+    </details>
+    <br>
+  {% endfor %}
+  <button type="submit">Start Swiping</button>
+</form>

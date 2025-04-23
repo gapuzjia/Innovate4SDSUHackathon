@@ -1,0 +1,13 @@
+details {
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  summary {
+    cursor: pointer;
+    font-size: 1.1em;
+  }
+  
