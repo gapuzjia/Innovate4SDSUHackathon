@@ -1,0 +1,11 @@
+<h2>🎉 Clubs You Liked</h2>
+<ul>
+  {% for club in clubs %}
+    <li>
+      <strong>{{ club.name }}</strong><br>
+      <small>{{ club.description }}</small>
+    </li>
+  {% endfor %}
+</ul>
+
+<a href="/">🔁 Start Over</a>

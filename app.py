@@ -1,8 +1,14 @@
 from flask import Flask, render_template, request, jsonify
+import joblib
+import csv
 import json
 
 app = Flask(__name__)
+model = joblib.load('club_model.pkl')
 
+# ========================
+# Tag Groups (shortened here, use your full version)
+# ========================
 tag_groups = {
     "STEM": [
         "engineering", "technology", "science", "math", "robotics", "computer science", 
@@ -72,34 +78,32 @@ tag_groups = {
         "queer support", "non-binary", "women in stem", "gender inclusivity"]
 }
 
-
+# ========================
+# Global Variables
+# ========================
 swipes = {
     "right": [],
     "left": [],
     "tag_scores": {}
 }
 
-
-
-# Load clubs from file
-with open('clubs.json', 'r') as f:
-    clubs = json.load(f)
-
-# After loading clubs
-with open('clubs.json', 'r') as f:
-    clubs = json.load(f)
-
-# Get all unique tags from clubs
-all_tags = sorted({tag for club in clubs for tag in club['tags']})
-
-
-# In-memory user profile and swipes (mock for now)
 user_profile = {"tags": []}
+club_roster = []               # Dynamic swipeable list
+seen_club_names = set()
 
+# ========================
+# Load Club Data
+# ========================
+with open('clubs.json', 'r') as f:
+    clubs = json.load(f)
+
+
+# ========================
+# Routes
+# ========================
 @app.route('/')
 def profile():
     return render_template('profile.html', tag_groups=tag_groups)
-
 
 
 @app.route('/submit_profile', methods=['POST'])
@@ -107,27 +111,22 @@ def submit_profile():
     selected_tags = request.form.getlist('tags')
     user_profile['tags'] = selected_tags
 
-    # Filter clubs that share tags with the user
-    matching_clubs = []
-    for club in clubs:
-        if any(tag in club['tags'] for tag in selected_tags):
-            matching_clubs.append(club)
-
-    def score_club(club, user_tags):
-        # How many tags match initial user profile
-        base_score = len(set(club['tags']) & set(user_tags))
-
-        # How many tags are learned to be good/bad
-        learned_score = sum(swipes["tag_scores"].get(tag, 0) for tag in club['tags'])
-
-        return base_score + learned_score
-
-
-    # Reset swipe memory
+    # Reset all memory
     swipes["right"].clear()
     swipes["left"].clear()
+    swipes["tag_scores"].clear()
+    club_roster.clear()
+    seen_club_names.clear()  # ← FIXED THIS LINE
 
-    return render_template('index.html', clubs=matching_clubs)
+    # Add initial clubs based on profile tags
+    for club in clubs:
+        if any(tag in club['tags'] for tag in selected_tags):
+            if club['name'] not in seen_club_names:
+                club_roster.append(club)
+                seen_club_names.add(club['name'])
+
+    return render_template('index.html', clubs=club_roster)
+
 
 
 @app.route('/swipe', methods=['POST'])
@@ -135,23 +134,44 @@ def swipe():
     data = request.get_json()
     direction = data.get('direction')
     club_id = data.get('club_id')
-    
-    club = next((c for c in clubs if c['id'] == club_id), None)
+
+    club = next((c for c in clubs if c['name'] == club_id), None)
+
     if club:
         swipes[direction].append(club_id)
 
+        # Real-time learning via tag_scores
         for tag in club['tags']:
             if tag not in swipes["tag_scores"]:
                 swipes["tag_scores"][tag] = 0
             swipes["tag_scores"][tag] += 1 if direction == "right" else -1
+
+        # Expand club_roster based on swiped-right tags
+        if direction == "right":
+            for tag in club['tags']:
+                for other in clubs:
+                   if tag in other['tags'] and other['name'] not in seen_club_names:
+                    input_text = ' '.join(user_profile['tags']) + ' ' + ' '.join(other['tags'])
+                    prob = model.predict_proba([input_text])[0][1]
+                    if prob > 0.5:  # or adjust threshold to be stricter like 0.6
+                        club_roster.append(other)
+                        seen_club_names.add(other['name'])
+
+
+        # Save swipe for future training
+        label = 1 if direction == "right" else 0
+        with open('training_data.csv', 'a', newline='') as f:
+            writer = csv.writer(f)
+            writer.writerow([','.join(user_profile['tags']), ','.join(club['tags']), label])
 
     return jsonify({"status": "ok"})
 
 
 @app.route('/saved')
 def saved():
-    liked_clubs = [club for club in clubs if club['id'] in swipes['right']]
-    return render_template('index.html', clubs=liked_clubs)
+    liked_clubs = [club for club in clubs if club['name'] in swipes['right']]
+    return render_template('saved.html', clubs=liked_clubs)
+
 
 if __name__ == '__main__':
     app.run(debug=True)

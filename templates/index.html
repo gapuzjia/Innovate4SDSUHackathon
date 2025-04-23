@@ -5,23 +5,31 @@
     <button onclick="swipe('left')">Not Interested</button>
   </div>
   <script>
-    let clubs = {{ clubs|tojson }};
     let current = 0;
+    let clubs = {{ clubs|tojson }};
   
     function swipe(direction) {
+      const clubId = clubs[current].name;
+  
       fetch('/swipe', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ club_id: clubs[current].id, direction: direction })
+        body: JSON.stringify({ club_id: clubId, direction: direction })
       }).then(() => {
         current++;
         if (current < clubs.length) {
-          document.querySelector('h2').textContent = clubs[current].name;
-          document.querySelector('p').textContent = clubs[current].description;
+          updateClubCard();
         } else {
-          document.getElementById('club-card').innerHTML = '<p>No more clubs!</p>';
+          window.location.href = "/saved";  // ⬅️ redirect when done
         }
       });
     }
+  
+    function updateClubCard() {
+      const card = document.getElementById("club-card");
+      card.querySelector("h2").textContent = clubs[current].name;
+      card.querySelector("p").textContent = clubs[current].description;
+    }
   </script>
+  
   
