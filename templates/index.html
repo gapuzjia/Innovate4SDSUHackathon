@@ -1,0 +1,27 @@
+<div id="club-card">
+    <h2>{{ clubs[0]['name'] }}</h2>
+    <p>{{ clubs[0]['description'] }}</p>
+    <button onclick="swipe('right')">Interested</button>
+    <button onclick="swipe('left')">Not Interested</button>
+  </div>
+  <script>
+    let clubs = {{ clubs|tojson }};
+    let current = 0;
+  
+    function swipe(direction) {
+      fetch('/swipe', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ club_id: clubs[current].id, direction: direction })
+      }).then(() => {
+        current++;
+        if (current < clubs.length) {
+          document.querySelector('h2').textContent = clubs[current].name;
+          document.querySelector('p').textContent = clubs[current].description;
+        } else {
+          document.getElementById('club-card').innerHTML = '<p>No more clubs!</p>';
+        }
+      });
+    }
+  </script>
+  

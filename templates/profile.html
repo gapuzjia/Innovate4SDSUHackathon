@@ -1,0 +1,10 @@
+<form action="/submit_profile" method="post">
+    <h2>Select Your Interests</h2>
+    <form action="/submit_profile" method="post">
+        {% for tag in tags %}
+        <label>
+            <input type="checkbox" name="tags" value="{{ tag }}"> {{ tag.title() }}
+        </label><br>
+        {% endfor %}
+        <button type="submit">Start Swiping</button>
+    </form>
