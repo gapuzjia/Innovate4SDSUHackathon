@@ -4,20 +4,43 @@ import json
 app = Flask(__name__)
 
 tag_groups = {
-    "STEM": ["engineering", "technology", "science", "math", "robotics"],
-    "Leadership": ["leadership", "networking", "business"],
-    "Cultural": ["asian community", "black community", "latino community", "international"],
-    "Greek Life": ["sorority", "fraternity", "greek life"],
-    "Arts & Media": ["music", "film", "photography", "art"],
-    "Volunteering & Service": ["volunteering", "nonprofit", "service"],
-    "Health": ["healthcare", "mental health", "fitness"],
-    "Social & Events": ["events", "social", "games"],
+    "STEM": ["engineering", "technology", "science", "math", "robotics", "computer science", 
+             "geology", "physics", "biology", "chemistry", "civil engineering", 
+             "mechanical engineering", "electrical engineering", "aerospace engineering",
+               "cybersecurity", "automotive engineering", "research"],
+    "Leadership": ["leadership", "networking", "management"],
+    "Business/Finance": ["trading", "stocks", "marketing", "investing", 
+                         "actuarian studies", "statistics", "accounting"],
+    "Cultural": ["asian community", "black community", "latino community", 
+                 "international", "japanese culture", "chinese culuture", 
+                 "hispanic community", "korean culture", "afghan community", "afrikan community"],
+    "Greek Life": ["sorority", "fraternity", "co-ed"],
+    "Arts & Media": ["music", "film", "photography", "art", "fashion", "stage directing",
+                      "stage production", "graphic design", "comedy", "drag", "writing", 
+                      "sound engineering"],
+    "Literature": ["books"],
+    "Dance":["color guard", "majorette", "cultural dance", "latin dance", "k-pop"],
+    "Crafting": ["crocheting", "jewelry making", "sewing", "ceramics"],
+    "Gaming": ["casual gaming", "competitive gaming", "board games"],
+    "Volunteering & Service": ["volunteering", "nonprofit", "service", "education", "outreach"],
+    "Medical & Healthcare": ["healthcare", "nursing", "veterinary medicine", "pre-med",
+                              "nutrition", "public health", "mental health", "physical therapy"],
+    "Social & Events": ["events", "social", "games", "parties"],
+    "Religion & Spirituality": ["christian", "catholic", "buddhisim","youth group", 
+                                "bible study", "judaism" ],
+    "Military": ["navy", "air force", "army", "ROTC"],
+    "Politics": ["pre-law", "democrat", "republican", "model united nations",
+                  "policy making", "mock trial"],
+    "Sports": ["basketball", "volleyball", "pickleball", "tennis", "table tennis",
+                "water sports", "boxing", "badminton", "gymnastics", "softball", 
+               "swimming", "field hockey", "powerlifting","surfing", "jiu-jitsu"],
+    "Gender": ['women-led', "LGBTQ+"]
 }
 
 swipes = {
     "right": [],
     "left": [],
-    "tag_scores": {}  # <-- THIS LINE
+    "tag_scores": {}
 }
 
 
