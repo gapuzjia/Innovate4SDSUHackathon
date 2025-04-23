@@ -2,6 +2,8 @@ from flask import Flask, render_template, request, jsonify
 import joblib
 import csv
 import json
+import subprocess
+
 
 app = Flask(__name__)
 model = joblib.load('club_model.pkl')
@@ -72,7 +74,7 @@ tag_groups = {
         "water sports", "boxing", "badminton", "gymnastics", "softball", 
         "swimming", "field hockey", "powerlifting", "surfing", "jiu-jitsu",
         "soccer", "football", "track and field", "ultimate frisbee", "wrestling", 
-        "rock climbing", "martial arts", "fencing", "equestrian", "cheerleading"],
+        "rock climbing", "martial arts", "fencing", "equestrian", "cheerleading", "fitness"],
     "Gender": [
         "women-led", "LGBTQ+", "gender equality", "feminism", "men's health", 
         "queer support", "non-binary", "women in stem", "gender inclusivity"]
@@ -103,7 +105,19 @@ with open('clubs.json', 'r') as f:
 # ========================
 @app.route('/')
 def profile():
+    # Retrain the model by running train_model.py
+    try:
+        subprocess.run(['python', 'train_model.py'], check=True)
+        print("✅ Retraining successful.")
+    except subprocess.CalledProcessError as e:
+        print("❌ Retraining failed:", e)
+
+    # Reload updated model
+    global model
+    model = joblib.load('club_model.pkl')
+
     return render_template('profile.html', tag_groups=tag_groups)
+
 
 
 @app.route('/submit_profile', methods=['POST'])
