@@ -14,9 +14,9 @@ model = joblib.load('club_model.pkl')
 tag_groups = {
     "STEM": [
         "engineering", "technology", "science", "math", "robotics", "computer science", 
-        "geology", "physics", "biology", "chemistry", "civil engineering", 
+        "geology", "geography","physics", "biology", "chemistry", "civil engineering", 
         "mechanical engineering", "electrical engineering", "aerospace engineering",
-        "cybersecurity", "automotive engineering", "research", "data science",
+        "cybersecurity", "automotive engineering", "research", "data science", "mathematics",
         "machine learning", "artificial intelligence", "coding", "software development",
         "hardware", "bioinformatics", "environmental science"],
     "Leadership": [
@@ -27,10 +27,10 @@ tag_groups = {
         "accounting", "economics", "finance", "entrepreneurship", "business development", 
         "consulting", "e-commerce", "sales", "branding", "startups"],
     "Cultural": [
-        "asian community", "black community", "latino community", "international", 
-        "japanese culture", "chinese culture", "hispanic community", "korean culture", 
-        "afghan community", "african community", "filipino culture", "indigenous", 
-        "middle eastern", "arab", "islander", "diaspora"],
+        "asian community", "black community", "latino community", "international", "palestenian community" 
+        "japanese culture", "chinese culture", "hispanic community", "korean culture", "french community",
+        "afghan community", "african community", "filipino culture", "indigenous", "language", "persian culture", "southeast asian"
+        "middle eastern", "arab", "islander", "diaspora", "hawaiian culture", "italian community", "iraqi community"], 
     "Greek Life": [
         "sorority", "fraternity", "co-ed", "greek council", "divine nine", "panhellenic"],
     "Arts & Media": [
@@ -39,24 +39,24 @@ tag_groups = {
         "sound engineering", "media production", "broadcasting", "journalism",
         "animation", "videography", "creative writing", "editing"],
     "Literature": [
-        "books", "reading", "novels", "literary analysis", "book club", "poetry"],
+        "books", "reading", "novels", "literary analysis", "book club", "poetry", "philosophy"],
     "Dance": [
         "color guard", "majorette", "cultural dance", "latin dance", "k-pop", 
         "hip hop", "ballet", "contemporary", "step", "jazz", "tap", "folk dance"],
     "Crafting": [
         "crocheting", "jewelry making", "sewing", "ceramics", "diy", "resin art", 
-        "painting", "calligraphy", "scrapbooking"],
+        "painting", "calligraphy", "scrapbooking", "furniture"],
     "Gaming": [
         "casual gaming", "competitive gaming", "board games", "esports", 
         "tabletop games", "video games", "game development", "D&D"],
     "Volunteering & Service": [
         "volunteering", "nonprofit", "service", "education", "outreach", 
         "community service", "philanthropy", "tutoring", "charity", 
-        "fundraising", "youth outreach", "homeless support"],
+        "fundraising", "youth outreach", "homeless support", "social work"],
     "Medical & Healthcare": [
         "healthcare", "nursing", "veterinary medicine", "pre-med", "nutrition", 
         "public health", "mental health", "physical therapy", "dental", 
-        "pharmacy", "emergency medicine", "first aid", "wellness"],
+        "pharmacy", "emergency medicine", "first aid", "wellness", "rehabilitation"],
     "Social & Events": [
         "events", "social", "games", "parties", "hangouts", "network mixers",
         "student life", "icebreakers", "club fairs"],
@@ -70,10 +70,10 @@ tag_groups = {
         "pre-law", "democrat", "republican", "model united nations", "policy making", 
         "mock trial", "debate", "activism", "legislation", "advocacy", "campaigning"],
     "Sports": [
-        "basketball", "volleyball", "pickleball", "tennis", "table tennis",
-        "water sports", "boxing", "badminton", "gymnastics", "softball", 
-        "swimming", "field hockey", "powerlifting", "surfing", "jiu-jitsu",
-        "soccer", "football", "track and field", "ultimate frisbee", "wrestling", 
+        "basketball", "volleyball", "pickleball", "tennis", "table tennis", "sailing",
+        "water sports", "boxing", "badminton", "gymnastics", "softball", "running",
+        "swimming", "field hockey", "powerlifting", "surfing", "jiu-jitsu", "muay thai"
+        "soccer", "football", "track and field", "ultimate frisbee", "wrestling", "skateboarding",
         "rock climbing", "martial arts", "fencing", "equestrian", "cheerleading", "fitness"],
     "Gender": [
         "women-led", "LGBTQ+", "gender equality", "feminism", "men's health", 
