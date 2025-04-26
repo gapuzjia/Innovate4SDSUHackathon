@@ -8,77 +8,79 @@ import subprocess
 app = Flask(__name__)
 model = joblib.load('club_model.pkl')
 
-# ========================
-# Tag Groups (shortened here, use your full version)
-# ========================
 tag_groups = {
     "STEM": [
-        "engineering", "technology", "science", "math", "robotics", "computer science", 
-        "geology", "geography","physics", "biology", "chemistry", "civil engineering", 
+        "engineering", "science", "robotics", "computer science", 
+        "geography", "physics", "biology", "chemistry", "civil engineering", 
         "mechanical engineering", "electrical engineering", "aerospace engineering",
-        "cybersecurity", "automotive engineering", "research", "data science", "mathematics",
-        "machine learning", "artificial intelligence", "coding", "software development",
-        "hardware", "bioinformatics", "environmental science"],
+        "cybersecurity", "automotive engineering", "research", 
+        "data science", "mathematics"
+    ],
     "Leadership": [
-        "leadership", "networking", "management", "mentorship", "student government",
-        "public speaking", "professional development", "career readiness"],
+        "leadership", "networking", "management", "public speaking"
+    ],
     "Business/Finance": [
-        "trading", "stocks", "marketing", "investing", "actuarial studies", "statistics", 
-        "accounting", "economics", "finance", "entrepreneurship", "business development", 
-        "consulting", "e-commerce", "sales", "branding", "startups"],
+        "trading", "marketing", "statistics", "finance"
+    ],
     "Cultural": [
-        "asian community", "black community", "latino community", "international", "palestenian community" 
-        "japanese culture", "chinese culture", "hispanic community", "korean culture", "french community",
-        "afghan community", "african community", "filipino culture", "indigenous", "language", "persian culture", "southeast asian"
-        "middle eastern", "arab", "islander", "diaspora", "hawaiian culture", "italian community", "iraqi community"], 
+        "asian community", "black community", "latino community", "international", 
+        "palestenian community", "japanese culture", "chinese culture", 
+        "hispanic community", "french community", "afghan community", 
+        "language", "persian culture", "southeast asian", "islander", 
+        "hawaiian culture", "italian community", "iraqi community"
+    ],
     "Greek Life": [
-        "sorority", "fraternity", "co-ed", "greek council", "divine nine", "panhellenic"],
+        "sorority", "fraternity", "co-ed"
+    ],
     "Arts & Media": [
-        "music", "film", "photography", "art", "fashion", "stage directing",
-        "stage production", "graphic design", "comedy", "drag", "writing", 
-        "sound engineering", "media production", "broadcasting", "journalism",
-        "animation", "videography", "creative writing", "editing"],
+        "music", "film", "photography", "fashion", "graphic design", 
+        "comedy", "sound engineering", "media production", "journalism", "videography"
+    ],
     "Literature": [
-        "books", "reading", "novels", "literary analysis", "book club", "poetry", "philosophy"],
+        "books", "reading", "philosophy"
+    ],
     "Dance": [
-        "color guard", "majorette", "cultural dance", "latin dance", "k-pop", 
-        "hip hop", "ballet", "contemporary", "step", "jazz", "tap", "folk dance"],
+        "latin dance"
+    ],
     "Crafting": [
-        "crocheting", "jewelry making", "sewing", "ceramics", "diy", "resin art", 
-        "painting", "calligraphy", "scrapbooking", "furniture"],
+        "crocheting", "jewelry making", "ceramics", "furniture"
+    ],
     "Gaming": [
-        "casual gaming", "competitive gaming", "board games", "esports", 
-        "tabletop games", "video games", "game development", "D&D"],
+        "board games"
+    ],
     "Volunteering & Service": [
-        "volunteering", "nonprofit", "service", "education", "outreach", 
-        "community service", "philanthropy", "tutoring", "charity", 
-        "fundraising", "youth outreach", "homeless support", "social work"],
+        "volunteering", "service", "education", "outreach", 
+        "homeless support", "social work"
+    ],
     "Medical & Healthcare": [
-        "healthcare", "nursing", "veterinary medicine", "pre-med", "nutrition", 
-        "public health", "mental health", "physical therapy", "dental", 
-        "pharmacy", "emergency medicine", "first aid", "wellness", "rehabilitation"],
+        "healthcare", "nursing", "veterinary medicine", "pre-med", 
+        "public health", "mental health", "physical therapy", 
+        "dental", "rehabilitation"
+    ],
     "Social & Events": [
-        "events", "social", "games", "parties", "hangouts", "network mixers",
-        "student life", "icebreakers", "club fairs"],
+        "social"
+    ],
     "Religion & Spirituality": [
-        "christian", "catholic", "buddhism", "youth group", "bible study", 
-        "judaism", "muslim", "hindu", "interfaith", "prayer", "spirituality", 
-        "meditation", "faith-based", "chaplaincy"],
+        "christian", "buddhism", "bible study", "judaism", 
+        "muslim", "prayer", "spirituality", "faith-based"
+    ],
     "Military": [
-        "navy", "air force", "army", "ROTC", "marines", "veterans", "military families"],
+        "ROTC"
+    ],
     "Politics": [
-        "pre-law", "democrat", "republican", "model united nations", "policy making", 
-        "mock trial", "debate", "activism", "legislation", "advocacy", "campaigning"],
+        "pre-law", "democrat", "republican", "model united nations", 
+        "policy making", "mock trial", "debate", "activism"
+    ],
     "Sports": [
-        "basketball", "volleyball", "pickleball", "tennis", "table tennis", "sailing",
-        "water sports", "boxing", "badminton", "gymnastics", "softball", "running",
-        "swimming", "field hockey", "powerlifting", "surfing", "jiu-jitsu", "muay thai"
-        "soccer", "football", "track and field", "ultimate frisbee", "wrestling", "skateboarding",
-        "rock climbing", "martial arts", "fencing", "equestrian", "cheerleading", "fitness"],
+        "basketball", "volleyball", "sailing", "boxing", "badminton", 
+        "gymnastics", "softball", "running", "field hockey", 
+        "powerlifting", "surfing", "muay thai", "skateboarding", "fitness"
+    ],
     "Gender": [
-        "women-led", "LGBTQ+", "gender equality", "feminism", "men's health", 
-        "queer support", "non-binary", "women in stem", "gender inclusivity"]
+        "women-led", "LGBTQ+"
+    ]
 }
+
 
 # ========================
 # Global Variables

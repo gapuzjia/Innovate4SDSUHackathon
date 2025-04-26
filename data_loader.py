@@ -3,15 +3,15 @@ import json
 
 def convert_csv_to_json(csv_path, json_path):
     clubs = []
-    with open(csv_path, newline='', encoding='utf-8') as csvfile:
+    with open(csv_path, newline='', encoding='cp1252') as csvfile:  # ← fix encoding here
         reader = csv.DictReader(csvfile)
         print("CSV headers:", reader.fieldnames)
 
         for row in reader:
             club = {
-                "name": row["\ufeffName"],
-                "description": row["Purpose"],
-                "tags": [tag.strip().lower() for tag in row["Tags"].split(',')]
+                "name": row.get("Name") or row.get("\ufeffName") or "Unnamed Club",
+                "description": row.get("Purpose", ""),
+                "tags": [tag.strip().lower() for tag in row.get("Tags", "").split(',')]
             }
             clubs.append(club)
     

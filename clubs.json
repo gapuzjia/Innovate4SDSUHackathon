@@ -4,22 +4,16 @@
     "description": "Shaping the future of law with AAPI representation and inclusion. Hosting biweekly speakers who are AAPI individuals in the law field. Affiliated with the APIDA Center, with the Associate Director as our advisor. Sharing advice and help for law school applications, LSAT Prep, and hosting workshops for developing professional profiles and LinkedIn profiles.",
     "tags": [
       "pre-law",
-      "asian pacific islander",
-      "professional development",
-      "public speaking",
-      "networking"
+      "asian community",
+      "politics"
     ]
   },
   {
     "name": "Achayot: Jewish Sisterhood",
     "description": "The purpose of this organization is to create a vibrant sisterhood of Jewish women and their allies, cultivate a deep sense of community, philanthropy, and cultural pride. Achayot: Jewish Sisterhood is dedicated to empowering Jewish women on campus, embodying Jewish values, supporting Jewish life, and strengthening our connection to Israel.",
     "tags": [
-      "jewish",
-      "women empowerment",
-      "cultural",
-      "religious/spiritual",
-      "community",
-      "philanthropy"
+      "judaism",
+      "women-led"
     ]
   },
   {
@@ -27,11 +21,7 @@
     "description": "ActiveChild is dedicated to improving the health and well-being of students in impoverished schools. We provide essential resources and support to these students, including access to exercise equipment, activewear, and educational materials.",
     "tags": [
       "healthcare",
-      "education",
-      "youth outreach",
-      "fitness",
-      "volunteering",
-      "community support"
+      "public health"
     ]
   },
   {
@@ -46,15 +36,16 @@
     "name": "Adapted Sports Physical Therapy",
     "description": "ASPT is committed to service learning by providing diverse educational opportunities rooted in community engagement, mentorship, and experiential learning. Our purpose is to enable future physical therapists to develop clinical reasoning and communication skills with an interdisciplinary approach, and support the adaptive athlete in their athletic performance and well-being.",
     "tags": [
+      "sports",
       "education",
-      "service"
+      "physical therapy"
     ]
   },
   {
     "name": "Aerospace Navigation and Control Society",
     "description": "To design and expand upon control theory projects and experiments with motivated STEM students",
     "tags": [
-      "engineering",
+      "aerospace engineering",
       "stem"
     ]
   },
@@ -62,16 +53,14 @@
     "name": "Afghan Student Association at San Diego State University",
     "description": "The purpose of this organization is to congregate and uplift the community of Afghan students at San Diego State University.",
     "tags": [
-      "culture",
-      "afghan"
+      "afghan community"
     ]
   },
   {
     "name": "Afrikan Student Union",
     "description": "The purpose of the Afrikan Student Union (ASU) is to develop a sensitive environment for the Afrikan Student at San Diego State University. A positive atmosphere will be obtained by organizing retention programs with goals of enhancing individual academic performance making campus resources available and to instill pride and self esteem through the study of Afrikan History and culture.",
     "tags": [
-      "culture",
-      "afrikan"
+      "afrikan community"
     ]
   },
   {
@@ -86,14 +75,16 @@
     "name": "All for Education",
     "description": "All for Education is a student-led organization dedicated to the encouragement, motivation and betterment of students and teachers alike. We believe that teaching is a noble practice and strive to assist future educators with learning opportunities involving classroom-based research, skills development and support sessions. Our mission is to illustrate what it means to make a difference in the realm of education as well-rounded educators who inspire, edify and revitalize our future generations.",
     "tags": [
-      "education"
+      "education",
+      "outreach"
     ]
   },
   {
     "name": "All Peoples Church at San Diego State University",
     "description": "To awaken college students to the full destiny God has for our lives through passionate worship and radical Biblical teaching.",
     "tags": [
-      "religion"
+      "religion/spirituality",
+      "bible study"
     ]
   },
   {
@@ -210,16 +201,16 @@
     "name": "American Marketing Association (AMA)",
     "description": "The American Marketing Association chapter at San Diego State University connects students of all majors to real world industry-leading professionals. We host community networking events, social events, and personal brand building workshops. Our goal is to help our members best prepare for their future careers post college!",
     "tags": [
+      "marketing",
       "business",
-      "social"
+      "networking"
     ]
   },
   {
     "name": "American Medical Student Association",
     "description": "The American Medical Student Association is the oldest and largest independent association of physicians-in-training in the United States. AMSA SDSU is the pre-medical chapter at San Diego State University offering its members various opportunities within the pre-health community. Some of the opportunities includes but are not limited to volunteering with the local organizations, shadowing physicians, guest speaker panels, professional development workshops, medical school road trips, and much more. Through our organization, you will meet and potentially gain lifelong friends to accompany you through the long and arduous journey of medicine!",
     "tags": [
-      "healthcare",
-      "social"
+      "healthcare"
     ]
   },
   {
@@ -227,7 +218,7 @@
     "description": "The purpose of this organization is to inspire students to pursue a career in public works through education regarding the diversity of career paths available.",
     "tags": [
       "education",
-      "public work"
+      "outreach"
     ]
   },
   {
@@ -243,7 +234,6 @@
     "description": "Our purpose is to advance student knowledge of Civil Engineering and improve the practice of civil engineering. Students are informed bimonthly on local engineering activities, scholarships, internships, and campus events. Benefits to members include professional networking, social networking, professional workshops, outreach opportunities, internship opportunities, project design experience, scholarship opportunities, and project management experience. Our chapter provides members with the knowledge and skills essential for excelling in the field of civil engineering.",
     "tags": [
       "engineering",
-      "service",
       "civil engineering"
     ]
   },
@@ -265,7 +255,8 @@
       "cultural",
       "education",
       "leadership",
-      "filipino"
+      "filipino",
+      "asican community"
     ]
   },
   {
@@ -288,7 +279,8 @@
     "description": "The APIDA PTA (Pre-Teacher Alliance) believes that an inclusive education benefits everyone. We strive to ensure that K-12 curricula includes Asian Pacific Islander Desi American (APIDA) histories and narratives. We also strive to diversify the teaching force by including more APIDA educators. We are a support group for APIDA teacher-candidates and allies. We aim to develop career growth opportunities and inspire each other to pursue our passions in and beyond K-12 classrooms.",
     "tags": [
       "cultural",
-      "education"
+      "education",
+      "asian community"
     ]
   },
   {
@@ -464,7 +456,8 @@
     "name": "Aztec Barbell Club",
     "description": "To provide a sense of community for strength sport athletes at SDSU in addition to serving as an official club to allow SDSU Powerlifters to compete at the collegiate level.",
     "tags": [
-      "sports"
+      "sports",
+      "powerlifting"
     ]
   },
   {
@@ -489,18 +482,14 @@
     "name": "Aztec Electric Racing",
     "description": "To apply classroom knowledge to building a formula electric race car, while gaining hands on experience and teaching others",
     "tags": [
-      ""
+      "mechanical engineering"
     ]
   },
   {
     "name": "Aztec Game Lab (AGL)",
     "description": "The mission of Aztec Game Lab is to educate and provide hands-on experience of the process of game development. Students will focus on an emphasis area by working together with the programming, art, level design, audio, or story teams. Members will participate in short projects with small teams, longer projects which involve all members of the club working together, and also game jams! We cultivate a fun and engaging community, and hope to promote the well-being and growth of our members in an inclusive environment. AGL is a great place to make friends who we can share activities with, and who can inspire us to grow. We also help our members with mentorship and networking with alumni and other professionals in the video game industry to develop portfolios and professional skills.",
     "tags": [
-      "arts",
-      "computer science",
-      "environment",
       "gaming",
-      "science",
       "social"
     ]
   },
@@ -516,16 +505,15 @@
     "name": "Aztec Gymnastics Club",
     "description": "To provide a safe and organized environment for students to learn gymnastics either recreationally or competitively. For students to practice gymnastics routines and compete at National level through NAIGC. Additionally, it would offer students an opportunity to become involved on campus and connect with other students.",
     "tags": [
-      "environment"
+      "gymnastics",
+      "sports"
     ]
   },
   {
     "name": "Aztec Music Group",
     "description": "Aztec Music Group will act as the official independent SDSU student music collective that provides entertainment, artist development/exposure, performance opportunities, and music industry knowledge to the San Diego State University community",
     "tags": [
-      "computer science",
-      "music",
-      "theater"
+      "music"
     ]
   },
   {
@@ -539,7 +527,8 @@
     "name": "Aztec Pickleball Association",
     "description": "To get students active and involved in the fastest growing sport in America. To allow the opportunity for students to get instructing positions at local sports clubs that offer competitive pay.",
     "tags": [
-      "sports"
+      "sports",
+      "pickelball"
     ]
   },
   {
@@ -555,82 +544,80 @@
     "name": "Aztec Robotics",
     "description": "The goal of our organization is to create a dynamic learning environment at the intersection of hardware and software, fostering hands-on experiences in robotics. Through targeted workshops, we aim to cultivate knowledge that is essential in the engineering field. Our commitment is to deliver a measurable impact by providing workshops in which we design and build robots for collegiate competitions while reaching a diverse student body. We aspire not only to introduce key subjects but also to stay at the forefront of industry trends, preparing students for success in a rapidly evolving technological landscape.",
     "tags": [
-      "arts",
+      "robotics",
       "computer science",
-      "education",
-      "engineering",
-      "environment"
+      "mechanical engineering"
     ]
   },
   {
     "name": "Aztec Trading and Investing Group",
     "description": "The purpose for this organization is to provide individuals who share a common interest for investing in the stock market, but are unsure where to begin or learn, a chance to be apart of an investing group where members can successfully learn proven investment strategies. New members will learn about what the stock market is and use this organization as a way to learn before how to invest. 90% of investors who don't learn end up losing money and we want to help people learn before they earn.",
     "tags": [
-      "business"
+      "business",
+      "trading"
     ]
   },
   {
     "name": "Aztec Winter Guard",
     "description": "The purpose of the organization is to provide a culturally diverse competitive team environment that competes at WGI, WCWG and WGASC competitions with the use of flags, rifles, sabres and dance movements.",
     "tags": [
-      "dance",
-      "environment"
+      "dance"
     ]
   },
   {
     "name": "Aztecs Boxing Club",
     "description": "Recreational and competitive training for sanctioned boxing events by USA Boxing and to support those who compete by attending their matches when available to establish camraderie with like minded students",
     "tags": [
-      "sports"
+      "sports",
+      "boxing"
     ]
   },
   {
     "name": "Aztecs for Socialism",
     "description": "We look to create a safe and inviting space to members across all racial, ethnic, sexual, and gender identities for sound education, community building, and effective political organizing. Aiming to serve the students of SDSU and broader SD",
     "tags": [
-      "education"
+      "education",
+      "outreach"
     ]
   },
   {
     "name": "Aztecs in Research",
     "description": "Through various forms of research, Aztecs in Research aims to create a supportive community where members can achieve their educational and research goals. Aztec in Research\u2019s mission is to inspire individuals to lead active research initiatives while fostering teamwork in a fun and dynamic environment.",
     "tags": [
-      "environment",
-      "science",
-      "social"
+      "research"
     ]
   },
   {
     "name": "Badminton Team at SDSU",
     "description": "Badminton sports team",
     "tags": [
-      "sports"
+      "sports",
+      "badminton"
     ]
   },
   {
     "name": "Ballet Folkl\u00f3rico Xochipilli de San Diego State University",
     "description": "The purpose of this organization is to provide a welcoming environment for SDSU students and the surrounding community who seek to learn the traditional Mexican style of dancing known as folklorico. We provide a space for students to learn and experience the Mexican culture in a fun and energetic way while providing opportunities to perform in various cultural events.",
     "tags": [
-      "environment",
-      "fashion",
-      "social"
+      "latino community",
+      "dance",
+      "latin dance"
     ]
   },
   {
     "name": "Beautiful mind project SDSU",
     "description": "The Beautiful Mind Project aims to promote well-rounded and intersectional understandings of mental health in the SDSU community, which includes the Muslim community and other student organizations. BMP aims to transcend socio-cultural, political, and physical barriers of stigmatization, while also advocating for social justice initiatives that affect these marginalized communities. BMP seeks to accomplish this goal by utilizing Islamic principles as a source of and inspiration for mental wellness. By providing diverse, accessible resources, the Beautiful Mind Project advocates for its members a lifestyle that emphasizes the delicate balance between mental, spiritual, and physical health.",
     "tags": [
-      "healthcare",
-      "law",
-      "religious/spiritual",
-      "social"
+      "mental health",
+      "outreach"
     ]
   },
   {
     "name": "Best Buddies SDSU",
     "description": "The purpose of this organization is to enrich the lives of students at SDSU and students and adults with intellectual and developmental disabilities by providing opportunities for one-to-one friendships and leadership opportunities",
     "tags": [
-      "leadership"
+      "leadership",
+      "social"
     ]
   },
   {
@@ -638,22 +625,26 @@
     "description": "Beta Alpha Psi (BAP) is a national honors scholastic and professional coed business organization. The primary objective of the fraternity is to encourage and give recognition to scholastic and professional excellence in the field of accounting, finance and information systems. This includes promoting the study and practice of business administration, providing opportunities for self-development, associating with members and practicing professionals, and encouraging a sense of ethical, social and public responsibility.",
     "tags": [
       "business",
-      "computer science",
-      "social"
+      "social",
+      "greek life",
+      "co-ed"
     ]
   },
   {
     "name": "Beta Psi Omega",
     "description": "The purpose of this organization is to provide a supportive, diverse community for students pursuing careers in the biological sciences, and to further the advancement of biology as a science and as a profession. The fraternity is committed to serving needs of the students and thereby the community. Beta Psi Omega aims to provide passionate students with opportunities, insights, and guidance to for their ambitions.",
     "tags": [
-      "science"
+      "greek life",
+      "biology",
+      "fraternity"
     ]
   },
   {
     "name": "Beta Theta Pi Fraternity",
     "description": "To develop Men of Principle for a principled life",
     "tags": [
-      ""
+      "greek life",
+      "fraternity"
     ]
   },
   {
@@ -668,87 +659,81 @@
     "description": "A national movement that was birthed from activism and need. Need to provide a space for Bilingual future educators to dialogue, grow, and learn from each other Using a national platform to promote bilingualism and institutionalize it as a recognized national group Getting bilingual teachers out of the shadows and into classroom Working with teacher education programs around the U.S. Embedding organization as part of education curriculum and practices",
     "tags": [
       "education",
-      "politics/activism"
+      "culture",
+      "outreach"
     ]
   },
   {
     "name": "Bioinformatics Student Association at San Diego State University",
     "description": "The purposes of this organization are to connect students to the growing industry of bioinformatics through education, networking and community enrichment",
     "tags": [
-      "education"
+      "stem"
     ]
   },
   {
     "name": "Biology Grad Student Association",
     "description": "The purpose of the BGSA is to provide a welcoming and supportive space for all biology graduate students to bring questions and express concerns regarding their graduate experience at San Diego State University (SDSU). BGSA prioritizes a diverse and inclusive membership and is committed to representing students regardless of race, ethnicity, nationality, sexual orientation, gender identity, age, religion, parental status, and/or socioeconomic status. BGSA will bring student concerns to the administrative level by engaging with Biology department leadership and the university-wide Graduate Student Association. Additionally, BGSA strives to host social and academic events to encourage community building between students, faculty, staff, administrators and greater San Diego.",
     "tags": [
-      "education",
-      "leadership",
-      "science",
-      "social"
+      "biology",
+      "stem"
     ]
   },
   {
     "name": "Biomedical Engineering Society",
     "description": "The purposes of this organization are to build and support the biomedical engineering community; designed to discuss modern advances, discoveries, and inventions; to promote education; and create professional networks in the biomedical field",
     "tags": [
-      "education",
-      "engineering"
+      "biology",
+      "stem"
     ]
   },
   {
     "name": "Black Business Society",
     "description": "The Black Business Society of San Diego State University shall be a student organization promoting professional development and academic excellence within the college of business, for all majors and ethnicities, and the SDSU community. Our members shall be guided with resources and support that will help them prepare for their chosen profession.",
     "tags": [
-      "business",
-      "computer science",
-      "cultural",
-      "education"
+      "black community",
+      "leadership"
     ]
   },
   {
     "name": "Black Campus Ministries",
     "description": "To promote the love and healing of Jesus Christ. In addition to catering to the needs of the black community and explore how biblical principles can be applied to the black community\u2019s experiences. BCM will be a beacon of light, standing firmly on the foundation that is Jesus, serving as a safe space for all to come and worship, learn, and connect with one another and God.In addition to creating a space for black students to seek the relevance of God as they pursue justice and reconciliation both within and outside of the black community on the campus of San Diego State University (SDSU) by: - creating an environment that is supportive, but challenging for students of African descent on the campus of San Diego State University - organizing programs that enhance an individual\u2019s spiritual growth, social support, and personal confidence - exposing the students of African descent to role models that exemplify and glorify Christ in their everyday lives",
     "tags": [
-      "cultural",
-      "environment",
-      "law",
-      "religious/spiritual",
-      "social"
+      "black community",
+      "leadership"
     ]
   },
   {
     "name": "Black Pre-Law Association",
     "description": "The purpose of the Black Pre-Law Association is to provide a community of like minded students interested in pursuing a legal career, along with resources to aid in their preparation in taking the LSAT and applying to law school. This organization shall work in tandem with NBLSA, SDSU faculty, chapters of Black Law Student Associations (BLSA) at law schools, and legal professionals to: conduct informational events, valuable workshops, and connect pre-law members with law school admissions offices in order to provide valuable insight on the application, financial aid, and curricular processes. NBLSA's Pre-Law Student Division exists to create a pipeline between undergraduates/college graduates and law school. The goal of this organization is to provide a network of students interested in law where they can build relevant experience, valuable connections, and essential skills for law school. Through on and off campus events, the students of the Black Pre-Law Association will come together to prepare for law school while growing substantially as individuals and creating an inclusive community for potential future lawyers at SDSU. The mission of NBLSA is to increase the number of culturally responsible Black and minority attorneys who excel academically, succeed professionally, and positively impact the community.",
     "tags": [
-      "cultural",
-      "law",
-      "social"
+      "black community",
+      "leadership",
+      "pre-law",
+      "politics"
     ]
   },
   {
     "name": "Black Psychology Student Organization",
     "description": "The fundamental purpose of the organization is to bring awareness of the existence and power of Black Psychology to improve the lives of Black people specifically and the world generally.",
     "tags": [
-      "cultural"
+      "black community",
+      "outreach"
     ]
   },
   {
     "name": "Black Renaissance",
     "description": "Our mission is to promote black influence and talent within theater and film. We are an outlet where representation for the black community is present on campus through the creative arts",
     "tags": [
-      "arts",
-      "cultural",
-      "theater"
+      "black community",
+      "film",
+      "arts"
     ]
   },
   {
     "name": "Black Student Science Organization",
     "description": "The purposes of this organization are to provide academic and social support to the African American students on campus and to provide outreach and service to the neighboring communities of the university",
     "tags": [
-      "cultural",
-      "education",
-      "service",
+      "black community",
       "social"
     ]
   },
@@ -756,16 +741,15 @@
     "name": "Black Transfer Club",
     "description": "Connect Black/African American transfer students with community and academic/career resources at SDSU.",
     "tags": [
-      "cultural",
-      "education"
+      "black community",
+      "social"
     ]
   },
   {
     "name": "BlacQspace",
     "description": "The purpose of the organization is to foster support for and education on 2SLGBTQIA+ Black identity and culture. It is a space dedicated to fostering community, dialogue, and healing curated by and with the intention for Black Two Spirit, lesbian, gay, bisexual, transgender, questioning, and additional gender and sexual identities that fall under the 2SLGBTQIA+ umbrella.",
     "tags": [
-      "cultural",
-      "education",
+      "black community",
       "lgbtq+"
     ]
   },
@@ -773,7 +757,7 @@
     "name": "Books and Vibes at SDSU",
     "description": "-To connect people who love to read and have similar interests -We want to create a safe space for people to make new friends and express themselves",
     "tags": [
-      "social"
+      "books"
     ]
   },
   {
@@ -789,7 +773,8 @@
     "name": "Business Careers in Entertainment Club",
     "description": "The purposes of this organization are to provide internships, job opportunities, hands-on experience, and career information to undergraduate students interested in the business end of the entertainment industry.",
     "tags": [
-      "business"
+      "business",
+      "networking"
     ]
   },
   {
@@ -804,7 +789,6 @@
     "name": "California Music Educators Association at SDSU",
     "description": "The California Music Educators Association (CMEA) at SDSU is an organization that supports music education majors and music majors who are interested in teaching music in the future. CMEA provides professional development, networking, and collaborative opportunities that will enhance the experience of future music educators.",
     "tags": [
-      "computer science",
       "education",
       "music"
     ]
@@ -820,9 +804,7 @@
     "name": "Ceramic Arts Association",
     "description": "Mission Statement The San Diego State University (SDSU) Ceramic Arts Association is the educational mission of the ceramics area in the School of Art + Design (the School). Activities include bringing visiting ceramic artists to campus for lectures, critiques and demonstrations; providing materials and resources for students beyond those available; providing workshops; and assisting students in attending national educational ceramic conferences while promoting exhibition opportunities. An overarching goal is to promote the ceramics program to attract the best quality students and to promote the ceramic arts within the SDSU community and beyond. The Association generally promotes the ceramic area through volunteer efforts and social activities.",
     "tags": [
-      "arts",
-      "service",
-      "social"
+      "ceramics"
     ]
   },
   {
@@ -837,40 +819,40 @@
     "name": "Challenge SDSU",
     "description": "Challenge is a great place to make a ton of friends, make a difference, discover the real Jesus, and have a blast! Our purpose is to help students come to know Jesus, learn to live like Him, and change the world the way He did. Come check us out",
     "tags": [
-      "social"
+      "christian",
+      "prayer",
+      "spirituality"
     ]
   },
   {
     "name": "Chemistry Graduate Student Association (CGSA)",
     "description": "To further the interests of and to provide a meeting place for graduate students in the Department of Chemistry and Biochemistry at San Diego State University",
     "tags": [
-      "science"
+      "chemistry",
+      "biochemistry"
     ]
   },
   {
     "name": "Chi Epsilon, Civil Engineering Honor Society",
     "description": "Dedicated to the purpose of maintaining and promoting the status of civil engineering as an ideal profession, Chi-Epsilon was organized to recognize the characteristics of the individual civil engineer deemed to be fundamental to the successful pursuit of an engineering career, and to aid in the development of those characteristics in the civil engineering student. Engineering, the application of scientific principles to the practical needs of society, is assuming a constantly increasing responsibility for the well-being of all people, and thus calling for competence of the highest order. This responsibility can be discharged only by a professional group whose members are possessed of a good basic technical ability, intelligence, moral integrity, and effective social poise in their relationship with the larger community of which they are part. To contribute to the improvement of the profession, Chi Epsilon fosters the development and exercise of sound traits of character and technical ability among civil engineers, and its members, by precept and example, toward an ever higher standard of professional service.",
     "tags": [
-      "computer science",
-      "engineering",
-      "service",
-      "social"
+      "civil engineering",
+      "greek life"
     ]
   },
   {
     "name": "Chi Omega",
     "description": "The purpose of this organization shall be to promote friendship, high standards of personnel, sincere learning and creditable scholarship, participation in campus activities, community service, and career development",
     "tags": [
-      "computer science",
-      "education",
-      "service"
+      "social",
+      "outreach"
     ]
   },
   {
     "name": "Chicana/o Studies Association (CCSA)",
     "description": "To foster a deeper understanding and appreciation of Chicano culture, history, and experiences among students, faculty, and the broader community. To provide a supportive community and resources for Chicano Studies major/ minor students to excel",
     "tags": [
-      "cultural"
+      "hispanic community"
     ]
   },
   {
@@ -884,22 +866,23 @@
     "name": "Chinese American Student Association",
     "description": "The purposes of this organization is to embrace and engage with all communities and people, whether or not they are from Chinese descent. In the process of doing so, we want to teach people the cultural traditions and practices of Chinese culture",
     "tags": [
-      "cultural",
-      "education"
+      "chinese culture"
     ]
   },
   {
     "name": "Chinese Students and Scholars Association",
     "description": "Serve Chinese students and scholars to provide services that they need, try our best to make their studying experience in SDSU more convenient and enjoyable.",
     "tags": [
-      "cultural"
+      "chinese culture"
     ]
   },
   {
     "name": "Christians At SDSU",
     "description": "Bringing forth an opportunity for SDSU students to immerse themselves in the christian community. Weekly bible readings and club events and activities with other sdsu students!",
     "tags": [
-      "religious/spiritual"
+      "christian",
+      "prayer",
+      "spirituality"
     ]
   },
   {
@@ -922,25 +905,22 @@
     "name": "Club Softball at SDSU",
     "description": "The purpose of Club Softball is to provide a competitive and inclusive environment for individuals passionate about softball. We focus on skill development, teamwork, and sportsmanship while representing SDSU in local tournaments. Our goal is to create a fun and supportive atmosphere for all members to grow as athletes and teammates.",
     "tags": [
-      "computer science",
-      "environment",
-      "social"
+      "softball"
     ]
   },
   {
     "name": "Club swim at SDSU",
     "description": "Purpose is to create a fun while competitive environment for students wanting to stay in shape as well as meet like minded people.",
     "tags": [
-      "environment",
-      "social"
+      "fitness"
     ]
   },
   {
     "name": "College Democrats of SDSU",
     "description": "The purpose of the College Democrats of SDSU is to promote the growth and development of the Democratic Party by engaging both undergraduate and graduate students at San Diego State University; work towards developing future leaders in both the Democratic Party and the community as a whole; actively support Democratic candidates, incumbents, including candidates for nonpartisan offices pledged to fulfill the Democratic Platform; increase political awareness through the dissemination of information on Democratic issues throughout the community; and carry out the Democratic Party campaign.",
     "tags": [
-      "computer science",
-      "leadership"
+      "democrat",
+      "activism"
     ]
   },
   {
@@ -954,29 +934,32 @@
     "name": "College Republicans at San Diego State University",
     "description": "College Republicans at SDSU promote and facilitate Republican activism at San Diego State University and within San Diego County. College Republicans also actively participate in organizing with other like-minded organizations. We also act as a significant resource via our brand by networking in local, statewide, and national politics.",
     "tags": [
-      "politics/activism"
+      "republican",
+      "activism"
     ]
   },
   {
     "name": "Collegiate Sales Society",
     "description": "We are the San Diego State University chapter of Collegiate Sales Society, a non-profit national collegiate sales club. Our organization is a group of students interested in pursuing sales jobs after graduation and we\u2019re dedicated to helping San Diego State University students learn about the sales profession, become trained on sales techniques, network with industry sales leaders, and earn sales internships and full-time jobs.",
     "tags": [
-      "leadership",
-      "social"
+      "management",
+      "marketing",
+      "buisness"
     ]
   },
   {
     "name": "Comedy Club",
     "description": "A club that is dedicated to producing original comedy of any form including but not limited to sketch comedy, stand-up comedy, and improv.",
     "tags": [
-      "performing arts"
+      "performing arts",
+      "comedy"
     ]
   },
   {
     "name": "Compact Scholars Student Association",
     "description": "As Compact Scholars of SDSU, the purpose of this organization is to connect with students from our community as a means to empower each other and find our momentum to achieve present and future goals, and provide a space for students from the south",
     "tags": [
-      "scholars"
+      "networking"
     ]
   },
   {
@@ -990,7 +973,6 @@
     "name": "Counseling and Social Change Club",
     "description": "Our goal is to become proactive leaders who possess the skills and tools necessary to advocate for social change. Our vision is to foster equity, achievement and opportunity for students entering the helping professions. We value multicultural awareness and social justice to better prepare future leaders for working with diverse communities.",
     "tags": [
-      "law",
       "leadership",
       "social"
     ]
@@ -1000,44 +982,54 @@
     "description": "The Creative Collective Magazine seeks to recognize the artistic talents of undergraduate and graduate students. We are dedicated to acknowledging the many artistic students here at SDSU. We expect to publish magazines by the end of the Fall and Spring semesters that contain students\u2019 artworks. The Creative Collective Magazine accepts art submissions in the form of creative writing such as poetry and short stories as well as visual arts such as painting/multimedia, photography, sculptures, and short films, and sound media such as music and songs. Students do not need to be club members in order to submit their art. Our mission is to encourage SDSU students to express themselves through artistic avenues. We hope to represent and empower students from all majors with published magazines containing their valuable work.",
     "tags": [
       "arts",
-      "media/journalism",
-      "music"
+      "photography",
+      "music",
+      "graphic design"
     ]
   },
   {
     "name": "Criminal Justice Student Association (CJSA)",
     "description": "To establish relationships among students with similar interests in the Criminal Justice field and support/promote the study and administration of the criminal justice system. This includes a familiarization with careers in criminal justice, developing and promoting relationships between students and professionals in criminal justice, and fostering a positive relationship with the community.",
     "tags": [
-      "law"
+      "pre-law",
+      "politics",
+      "debate",
+      "mock trial",
+      "policy making"
     ]
   },
   {
     "name": "Cru",
     "description": "Cru exists to provide regular opportunities to study and discuss the Bible, worship, and pray, all in a group setting, which also provides opportunities for fellowship, encouragement and spiritual development among members. We seek to be a resource to the student body by offering opportunities to discuss spiritual matters and provide materials in the form of outside speakers, videos, books, and articles, all for their benefit and consideration.",
     "tags": [
-      "computer science",
-      "religious/spiritual"
+      "prayer",
+      "spirituality",
+      "christian",
+      "faith-based"
     ]
   },
   {
     "name": "CubeSat Club",
     "description": "The purpose of this organization is to create CubeSats, or small satellites in general, as an innovative method to grant our members technical, hands-on Astronautical Engineering experience",
     "tags": [
-      "engineering"
+      "aerospace engineering",
+      "stem"
     ]
   },
   {
     "name": "Cyber Defense Team",
     "description": "The purposes of this organization are to educate members in the latest computer security methodologies and techniques, and to represent San Diego State University in collegiate cybersecurity competitions",
     "tags": [
-      "computer science"
+      "computer science",
+      "cybersecurity"
     ]
   },
   {
     "name": "CyberRisk Organization (CybOrg) at SDSU",
     "description": "CybOrg is dedicated to advancing cybersecurity proficiency by facilitating hands-on workshops led by industry professionals, fostering networking opportunities with companies and recruiters, and developing skills in risk identification and mitigation. Our focus on achieving professional certifications ensures members are well-prepared to contribute effectively to the cybersecurity landscape.",
     "tags": [
-      "computer science"
+      "computer science",
+      "cybersecurity"
     ]
   },
   {
@@ -1052,8 +1044,7 @@
     "description": "Dance Marathon is a nationwide movement involving over 400 college and high school campuses. Students participate in year-long fundraising for pediatric medical causes. One hundred percent of the proceeds are donated to the Children\u2019s Miracle",
     "tags": [
       "dance",
-      "healthcare",
-      "service"
+      "volunteering"
     ]
   },
   {
@@ -1061,28 +1052,30 @@
     "description": "The Purpose of DATA is to connect students, both major related and not, with opportunities to participate in shows and events which are produced by students of the SDSU Theatre Department. Members will have the opportunity to design and work on student-run shows, as well as participate in workshops and network with Theatre students and professionals.",
     "tags": [
       "arts",
-      "social"
+      "media production"
     ]
   },
   {
     "name": "Data Science Initiative",
     "description": "The purpose of our organization is to allow students to learn about data science skills and give them a chance to use their knowledge in practical application in the field of data science. We aim to provide students with a comprehensive",
     "tags": [
-      "science"
+      "data science"
     ]
   },
   {
     "name": "Delight Ministries",
     "description": "To create a community of college aged women who are growing, living, and chasing the heart of God together.",
     "tags": [
-      "women empowerment"
+      "women empowerment",
+      "christian"
     ]
   },
   {
     "name": "Delta Beta Tau",
     "description": "To create a Greek lettered co-ed service organization founded on the Buddhist principles of generosity, morality, patience, diligence, concentration, and wisdom. To foster an accepting and tolerant space where students from all races, genders, sexual orientations, religions and abilities can come together to build friendships with others who have similar interests. To introduce and strengthen student knowledge and understanding of meditation and teachings through guest speakers, informal discussions, and retreats. To focus on volunteer work in an effort to bring compassion and peace to the community.",
     "tags": [
-      "service"
+      "greek life",
+      "buddhism"
     ]
   },
   {
@@ -1090,60 +1083,53 @@
     "description": "To promote friendship, develop character, advance justice, and assist in the acquisition of a sound education",
     "tags": [
       "education",
-      "law"
+      "greek life"
     ]
   },
   {
     "name": "Delta Sigma Phi Fraternity",
     "description": "The Delta Sigma Phi Fraternity in convention assembled declares and affirms the following principles: That the belief in God is essential to our welfare. That loyalty to the constituted authority of our nations and their subdivisions is a cardinal virtue of our Brotherhood, the pledged faith of which shall never be broken; and that our Brotherhood, receiving the blessings of liberty, education and fraternity, shall ever support, foster and defend our universities, colleges, and school systems, founded under the dispensation of our governments and constituting the bulwarks of democracy for us, for our posterity and for all men. That the sanctity of the home and the sacredness of the family bond, the hearthstone of our enlightened civilization, and the chivalry of man toward woman, shall be maintained and protected by us, not only for ourselves and our posterity, but also for the good of all mankind. That as a symmetrical culture, a fraternal communion among the colleges of this country, and brotherhood of men, whose ideals and beliefs are those of modern civilization, are essential to the welfare of our college men. In furtherance of these aims, the Fraternity has recognized certain standards of attainment and gentlemanly conduct expressed in the ideals symbolically represented by the three Greek letters, Delta, Sigma, and Phi; and it shall be the constant endeavor of the brothers who may be called to preside over and govern the fraternity, or its component chapter, to enforce the precepts of the Fraternity by every reasonable means within their power, and they, and each Brother of the Fraternity shall exemplify those principles by conduct as well as enforcement in order that the Fraternity may grow and prosper with honor to itself and that the world may ever be convinced of the sincerity of our purpose.",
     "tags": [
-      "education",
-      "politics/activism",
-      "religious/spiritual"
+      "greek life",
+      "fraternity"
     ]
   },
   {
     "name": "Delta Sigma Pi",
     "description": "Delta Sigma Pi is a professional fraternity organized to foster the study of business in universities; to encourage scholarship, social activity and the association of students for their mutual advancement by research and practice; to promote closer affiliation between the commercial world and students of commerce, and to further a higher standard of commercial ethics and culture and the civic and commercial welfare of the community.",
     "tags": [
-      "business",
-      "science",
-      "social"
+      "greek life",
+      "fraternity"
     ]
   },
   {
     "name": "Delta Sigma Psi Sorority",
     "description": "To foster a memorable experience of college life, promote academic achievement, social interactions, community service, leadership, and networking (family ties)",
     "tags": [
-      "education",
-      "leadership",
-      "service",
-      "social"
+      "greek life"
     ]
   },
   {
     "name": "Delta Sigma Theta Sorority, Inc., Nu Upsilon Chapter",
     "description": "Delta Sigma Theta Sorority, Incorporated. is a private, not-for-profit organization whose purpose is to provide assistance and support through established programs in local communities throughout the world. Since its founding more than 300,000 women have joined the organization. The organization is a sisterhood of predominantly Black, college educated women. The sorority currently has 1,000 collegiate and alumnae chapters located in the United States, England, Japan (Tokyo and Okinawa), Germany, the Virgin Islands, Bermuda, the Bahamas, Jamaica and the Republic of Korea. The major programs of the sorority are based upon the organization's Five Point Programmatic Thrust.",
     "tags": [
-      "cultural",
-      "women empowerment"
+      "greek life",
+      "sorority"
     ]
   },
   {
     "name": "Delta Upsilon International Fraternity",
     "description": "To Build Better Men through a variety of leadership development opportunities, educational programs, and social settings based on the principles of culture, character, justice, and friendship",
     "tags": [
-      "computer science",
-      "law",
-      "leadership",
-      "social"
+      "greek life",
+      "fraternity"
     ]
   },
   {
     "name": "Destino",
     "description": "To empower the next generation of Latino/as to change the world through Christ",
     "tags": [
-      ""
+      "hispanic community"
     ]
   },
   {
@@ -1159,24 +1145,24 @@
     "name": "Doctorate of Physical Therapy Student Association",
     "description": "The purpose of this organization shall be to educate students and the public about the profession of Physical Therapy, to give back to our community, and to provide a platform for Doctorate of Physical Therapy Students to enhance their educational opportunities through club involvement.",
     "tags": [
-      "healthcare"
+      "healthcare",
+      "physical therapy"
     ]
   },
   {
     "name": "Drag@SDSU",
     "description": "The purpose of this organization is to foster community and creativity for students and members interested in the artform and performance/ community of drag here at San Diego State University.",
     "tags": [
-      "music",
-      "theater"
+      "dance",
+      "lgbtq+",
+      "music"
     ]
   },
   {
     "name": "Drone Club at San Diego State University",
     "description": "A social club to promote drone recreational learning and professional development",
     "tags": [
-      "computer science",
-      "education",
-      "social"
+      "computer science"
     ]
   },
   {
@@ -1184,9 +1170,7 @@
     "description": "The objective of the Earthquake Engineering Research Institute is to reduce earthquake risk by (1) advancing the science and practice of earthquake engineering, (2) improving understanding of the impact of earthquakes on the physical, social, economic, political, and cultural environment, and (3) advocating comprehensive and realistic measures for reducing the harmful effects of earthquakes.",
     "tags": [
       "engineering",
-      "environment",
-      "science",
-      "social"
+      ""
     ]
   },
   {
@@ -1200,7 +1184,7 @@
     "name": "eLeet Coders Club",
     "description": "This organization's purpose is to prepare students for tech job interviews by having them practice Leet Code problems, network, and listen to advice from industry guest speakers",
     "tags": [
-      "social"
+      "computer science"
     ]
   },
   {
@@ -1215,15 +1199,14 @@
     "name": "End Overdose SDSU",
     "description": "End Overdose is a non-profit organization working to end drug-related overdose deaths through education, medical intervention, and public awareness. We will work to make resources that prevent overdose-related deaths accessible to everyone on our campus.",
     "tags": [
-      "education",
-      "healthcare"
+      "healthcare",
+      "social"
     ]
   },
   {
     "name": "Engineers Without Borders - SDSU (EWB-SDSU)",
     "description": "The mission of EWB-USA is to partner with developing communities to improve their quality of life through the implementation of environmentally sustainable, equitable, and economical engineering projects. In the process of working to advance developing communities, EWB-USA promotes the development of globally aware and internationally responsible engineers, students, and professionals.",
     "tags": [
-      "computer science",
       "engineering"
     ]
   },
@@ -1231,6 +1214,8 @@
     "name": "Entrepreneur Society",
     "description": "The purpose of the Entrepreneur Society is to foster a vibrant culture of entrepreneurship on campus, empowering students to develop entrepreneurial mindsets and launch their own ventures. WE ARE OPEN TO ALL MAJORS. YOU DO NOT NEED TO BE STUDYING BUSINESS. We provide support for students creating their own businesses, from coming up with the ideas to making dreams a reality. We also invite out great guest speakers -- from CEO's of firms that do several hundred million dollars in business, to recent graduates that are in start-ups, we have successful entrepreneurs & movers & shakers tell their story.",
     "tags": [
+      "business",
+      "management",
       "business"
     ]
   },
@@ -1238,25 +1223,21 @@
     "name": "EOP Student Advisory Board",
     "description": "To support EOP students in their academic, social, civic, and cultural development. As well as direct them to resources that will allow them to be active, involved, and engaged during their time at San Diego State",
     "tags": [
-      "computer science",
-      "education",
-      "social"
+      "outreach"
     ]
   },
   {
     "name": "Epsilon Eta Environmental Honors Fraternity",
     "description": "The purpose of this organization is to develop members professionally, while advocating for sustainability through the immense amounts of biodiversity in the county of San Diego.",
     "tags": [
-      "environment"
+      "co-ed"
     ]
   },
   {
     "name": "Every Player Plays",
     "description": "The purposes of this organization are to create a safe, welcoming, and collaborative space for neurodiverse children to develop their social communication skills and make friends through participation in team sports! It is our ultimate goal to validate the results of our original study and support our families in navigating the care of children with autism, using our community-based model for ASD intervention.",
     "tags": [
-      "fashion",
-      "social",
-      "sports"
+      "social"
     ]
   },
   {
@@ -1271,9 +1252,6 @@
     "name": "Feminist Outreach Coalition",
     "description": "The purposes of this organization is to bring greater awareness to the issues impacting women and other people of marginalized genders and identities. The Feminist Outreach Coalition hopes to make our voices heard as leaders in feminism and the discipline Women, Gender, Sexuality Studies. We will also organize events for feminist community outreach and education.",
     "tags": [
-      "education",
-      "leadership",
-      "service",
       "women empowerment"
     ]
   },
@@ -1281,14 +1259,16 @@
     "name": "Field Hockey Club at SDSU",
     "description": "The purposes of this organization are to stay active, work as a team, learn, compete, and play field hockey",
     "tags": [
-      "sports"
+      "sports",
+      "field hockey"
     ]
   },
   {
     "name": "Film Society SDSU",
     "description": "The purpose of film society is to help new TFM production pre-majors get to meet one another, work together to make films and seek advice about applying to the major.",
     "tags": [
-      "arts"
+      "arts",
+      "film"
     ]
   },
   {
@@ -1296,9 +1276,8 @@
     "description": "The Finance & Investment Society of San Diego State University is a professional student organization, which provides an opportunity for all majors to develop their professional competency. Our mission is to build a strong and growing relationship between the business community of Southern California and the members of the Finance & Investment Society. We provide a professional environment which introduces its members to various career opportunities within the finance industry, providing them the means of establishing a network of business contacts. Our organization incorporates four main areas of emphasis including professional development, social interaction, campus involvement, and a strong presence in the community. These areas are included into our program to strengthen business skills, as well as for personal enrichment.",
     "tags": [
       "business",
-      "computer science",
-      "environment",
-      "social"
+      "finance",
+      "management"
     ]
   },
   {
@@ -1313,8 +1292,6 @@
     "name": "First-Generation Pre-Law Society at San Diego State University",
     "description": "This organization aims to provide information, outreach, and mentorship by promoting scholarship, community service, leadership, study abroad, and research opportunities",
     "tags": [
-      "leadership",
-      "science",
       "service"
     ]
   },
@@ -1322,7 +1299,8 @@
     "name": "Flying Samaritans of SDSU",
     "description": "To provide health care services to the underserved population of La Morita in Tijuana, Mexico through monthly free clinics.",
     "tags": [
-      "healthcare"
+      "healthcare",
+      "hispanic commun ity"
     ]
   },
   {
@@ -1337,7 +1315,7 @@
     "name": "FRIENDS OF MSF",
     "description": "The purposes of this organization are to enable San Diego State University communities to spread the message about MSF and the incredible work they do all while being advocates for positive holistic growth",
     "tags": [
-      ""
+      "social"
     ]
   },
   {
@@ -1345,14 +1323,16 @@
     "description": "Our purpose is to promote and educate Furniture Designers and bring community awareness to our craft",
     "tags": [
       "arts",
-      "design"
+      "design",
+      "furniture"
     ]
   },
   {
     "name": "Future Athletic Trainers' Society",
     "description": "The purpose of the organization shall be to educate students and the public about the profession of athletic training, to assist community organizations through athletic training volunteer programs, and to provide a platform for athletic training",
     "tags": [
-      "service"
+      "sports",
+      "fitness"
     ]
   },
   {
@@ -1360,50 +1340,46 @@
     "description": "The purpose of this organization is to promote academic success, preparation for graduate school, professionalism, and growth in the fields of physical therapy, occupational therapy, and the general study of kinesiology.",
     "tags": [
       "education",
-      "healthcare"
+      "healthcare",
+      "physical therapy"
     ]
   },
   {
     "name": "Gaming and Fitness",
     "description": "Through a unique blend of fitness activities and immersive gaming experiences, Fitness and Gaming aims to create a supportive community where members can achieve their health and fitness goals while enjoying the thrill of gaming. Fitness and Gaming's mission is to inspire individuals to lead active lifestyles, enhance cognitive skills, and foster teamwork in a fun and dynamic environment.",
     "tags": [
-      "environment",
       "gaming",
-      "healthcare",
-      "social"
+      "fitness"
     ]
   },
   {
     "name": "Gamma Phi Beta Sorority",
     "description": "To foster a nurturing environment that provides women the opportunity to achieve their potential through lifelong commitment to intellectual growth, individual worth and service to humanity",
     "tags": [
-      "environment",
-      "service",
-      "women empowerment"
+      "women empowerment",
+      "sorority"
     ]
   },
   {
     "name": "Gamma Zeta Alpha Fraternity",
     "description": "The mission of Gamma Zeta Alpha Fraternity, Inc, a not-for-profit corporation built on the foundation of respect and brotherhood, is to establish and promote a nurturing environment at the university level and beyond, through academic excellence, community service, and the celebration of the diverse Latino Culture.",
     "tags": [
-      "education",
-      "environment",
-      "service"
+      "fraternity"
     ]
   },
   {
     "name": "Geography Graduate Student Association",
     "description": "The purposes of this organization are to provide students with the opportunity to enhance their academic and professional goals through student-led events and monthly meetings. Participants are encouraged to attend said monthly meetings and collaborate with each other to build relationships, learn valuable leadership skills, create academic-based programs, and serve their department and fellow students when needed.",
     "tags": [
-      "education",
-      "leadership"
+      "geography"
     ]
   },
   {
     "name": "Girl Gains SDSU",
     "description": "Our mission is to promote female weight lifting while empowering women to feel strong and beautiful in a judgement free community",
     "tags": [
-      "women empowerment"
+      "women empowerment",
+      "powerlifting"
     ]
   },
   {
@@ -1411,39 +1387,39 @@
     "description": "Girls Who Code College Loop at SDSU is focused on closing the gender gap in the computer science field. We want to create a community that brings girls and non-binary/ underrepresented groups of people together who are interested in computer science",
     "tags": [
       "computer science",
-      "science"
+      "women empowerment"
     ]
   },
   {
     "name": "Graduate School of Public Health Student Council",
     "description": "(1) To promote the professional and social development of students within the areas of public and personal health. (2) To encourage and promote student participation within the SPH. (3) To develop and promote effective representation of the students of the SPH. (4) To develop and facilitate faculty and student interactions upon professional and non-professional issues affecting the students of SPH. (5) To unite the SPH divisions through professional and non-professional events. (6) To serve as a liaison between our students, faculty, and San Diego State University. (7) To promote public health to the greater campus at San Diego State University.",
     "tags": [
-      "computer science",
-      "healthcare",
-      "social"
+      "public health",
+      "healthcare"
     ]
   },
   {
     "name": "Graduate Social Work Association",
     "description": "The Graduate Social Work Association (GSWA) exists to support students as they navigate their time in the School of Social Work at San Diego State University. GSWA seeks to provide opportunities for students to connect with one another and with faculty. Additionally, we hope to support students\u2019 academic and professional growth, development, and success, and advocate for students to the administration.",
     "tags": [
-      "computer science",
-      "education",
-      "social"
+      "social work",
+      "outreach"
     ]
   },
   {
     "name": "Greek InterVarsity",
     "description": "Establish and advance at SDSU witnessing communities of students and faculty who follow Jesus as Savior and Lord: growing in love for God, God's Word, God's people of every ethnicity and culture and God's purposes in the world",
     "tags": [
-      "sports"
+      "christian",
+      "prayer",
+      "spirituality"
     ]
   },
   {
     "name": "Greek Life Activities Board (GLAB)",
     "description": "Greek Life Activities Board is the only Greek board that includes members from ALL SDSU Greek organizations! The board's purpose is to plan a wide range of activities that promote Greek unity, SDSU pride, and healthy competition while raising awareness for various beneficiaries and focus on philanthropic contributions.",
     "tags": [
-      "lgbtq+"
+      "co-ed"
     ]
   },
   {
@@ -1457,14 +1433,14 @@
     "name": "Habla con Confianza",
     "description": "The purpose of Habla con Confianza is to build a community and safe space for bilingual Spanish speaking students within the department of speech-language and hearing sciences. Our goal is to give students the opportunity to voice their opinions and concerns while also providing an opportunity to learn how to become more confident in their abilities as a clinician, student, and/or bilingual. Although this group is dedicated toward Spanish speaking students, we aim to help everyone feel comfortable with their Spanish-speaking skills while also fostering a community. Everyone is welcome to join and engage in the conversation of bilingualism and representation within the field of speech-language pathology and audiology.",
     "tags": [
-      "hispanic"
+      "hispanic community"
     ]
   },
   {
     "name": "Hawaii Club at SDSU",
     "description": "The purpose of the Hawaii Club is to promote aloha, respect for the environment, and a sense of ohana (family) within our diverse community. We are dedicated to creating a supportive and inclusive environment where members can share their love for Hawaii, learn from one another, and play an active role in preserving and honoring our island.",
     "tags": [
-      "environment"
+      "hawaiian culture"
     ]
   },
   {
@@ -1472,58 +1448,52 @@
     "description": "The purpose of this organization is to provide opportunities for students: To promote the occupations within Health Communication at the local, state, and national levels. To schedule events, such as speakers, forums, workshops, open houses, and community outreach events, that aid member success, promote involvement within the organization/University, and for recruitment. To promote their leadership skills, network with local professionals in their prospective career field, develop professionalism, and build self-confidence.",
     "tags": [
       "healthcare",
-      "leadership",
-      "service",
-      "social"
+      "public health"
     ]
   },
   {
     "name": "Helping Hands for Homelessness",
     "description": "The purpose of Helping Hands for Homelessness is to provide necessities and directions to further resources like shelter and food for unhoused people on and around SDSU\u2019s campus. This club also aims to promote empathy and awareness towards the homelessness crisis on campus. We hold weekly meetings that provide information on important issues regarding homelessness and allow members to sign up for outreach events. Our club is welcoming to all SDSU students. By joining Helping Hands for Homelessness, members will grow their leadership skills and promote community engagement through education and service projects.",
     "tags": [
-      "education",
-      "leadership",
-      "service"
+      "outreach",
+      "homeless support"
     ]
   },
   {
     "name": "Hiking Club at SDSU",
     "description": "The purpose of this organization is to bring SDSU students together to participate in outdoor activities. We focus on promoting physical fitness through organized group hikes that range from easy to moderate.",
     "tags": [
-      "sports"
+      "hiking"
     ]
   },
   {
     "name": "Hispanic Business Student Association (HBSA)",
     "description": "HBSA seeks to promote the educational and professional careers of its members with an emphasis on the Hispanic population at San Diego State University. Members are encouraged to become future leaders in the professional world. Inspiring guest speakers from the public and private sector are invited to present at meetings and professional events. Companies, organizations and individuals are solicited to host workshops which are designed to address educational issues, business trends, and career opportunities relating to the Hispanic community.",
     "tags": [
-      "business",
-      "cultural",
-      "leadership"
+      "hispanic community",
+      "business"
     ]
   },
   {
     "name": "Hispanic Serving Institution Student Advisory Board (HSI SAB)",
     "description": "The HSI Student Advisory Board is a forum for the consideration, assessment and sharing of the quality of the student experience as it relates to SDSU\u2019s status as a Hispanic Serving Institution. This includes the student perspective on the implementation of policies and procedures, curriculum, climate, scholarship, representation, student success, and awareness of SDSU\u2019s status as a Hispanic Serving Institution. Activities can include sharing student experiences, posing questions for considerations, making suggestions for change, and generally working with the committee and chair to advance the HSI mission from a student perspective.",
     "tags": [
-      "cultural",
-      "environment"
+      "hispanic community"
     ]
   },
   {
     "name": "IEEE - Institute of Electrical and Electronics Engineers",
     "description": "For the past 40 years, the IEEE (Institute of Electrical and Electronics Engineers) has been the primary contributor to the advancement of technology throughout the world. Creating and innovating to accelerate society and business, the IEEE continues to propel technology with over 430,000 members within 180 countries globally. The SDSU IEEE Student branch, like its parent organization, aims to push forth similar goals through: \u2022 Bringing in professional guest speakers to gain insight into engineering careers \u2022 Completing project to give student hands-on experience \u2022 Assist student in tutoring and professional development \u2022 Serving and working together with the IEEE parent branch \u2022 Collaborating with SDSU faculty and the engineering student council",
     "tags": [
-      "business",
-      "computer science",
-      "engineering"
+      "engineering",
+      "electrical engineering"
     ]
   },
   {
     "name": "Il Circolo Italiano",
     "description": "\"Il Circolo Italiano\" tries to promote a better understanding of Italian culture for students who show an interest of the Italian language and culture at San Diego State University",
     "tags": [
-      "italian culture"
+      "italian community"
     ]
   },
   {
@@ -1538,10 +1508,7 @@
     "name": "Indigenous Social Work Alliance",
     "description": "Foster leadership, social justice advocacy, professionalism for Indigenous students in the social work field.",
     "tags": [
-      "law",
-      "leadership",
-      "politics/activism",
-      "social"
+      "hispanic community"
     ]
   },
   {
@@ -1570,24 +1537,21 @@
     "name": "Interfraternity Council (IFC)",
     "description": "The purpose of the InterFraternity Council shall be to promote the best interests of the University, to assist and strengthen fraternities individually and collectively in the achievement of their worthy purposes, to provide a medium for the exercising of self-government and the self-regulation of fraternity affairs, to offer opportunities for the further development and expansion of fraternity life on campus, to act as liason between fraternities and the University administration, to offer a common meeting ground for all fraternities, and to foster fellowship and goodwill among the fraternities and the student body as a whole.",
     "tags": [
-      "computer science",
-      "politics/activism"
+      "fraternity"
     ]
   },
   {
     "name": "Intergenerational Gerontology Alliance",
     "description": "The purposes of this organization are to connect SDSU students with the aging community and organizations in San Diego. Through educating, volunteering, and collaborating, as well as engaging in intergenerational activities, the IGA is committed to being the stewards of the aging population.",
     "tags": [
-      "education"
+      "outreach"
     ]
   },
   {
     "name": "International Business Society",
     "description": "\"The International Business Society strives to provide students with educational and professional network oppurtunies, teach professional skills, and explore study abroad programs, international internships and business career opportunities.\"",
     "tags": [
-      "business",
-      "education",
-      "social"
+      "business"
     ]
   },
   {
@@ -1602,7 +1566,7 @@
     "name": "International Student Association at SDSU",
     "description": "The purpose of this organization shall be to promote cultural awareness, international goodwill, and to set up fun programs that benefit our diverse student community that has an interest in international issues",
     "tags": [
-      "social"
+      "international"
     ]
   },
   {
@@ -1610,17 +1574,16 @@
     "description": "The purposes of this organization are to build a movement of student youth in opposition to war and social inequality upon the foundation of international socialism. The International Youth and Students for Social Equality is a political organization, but its actions will not be limited to those of a strictly political nature. The overarching goal of the organization is to unite students on the basis of international socialist politics. This will involve meetings and discussions on historical, philosophical, and political issues, as well as active participation in the cultural and political life of the university.",
     "tags": [
       "politics/activism",
-      "social"
+      "international"
     ]
   },
   {
     "name": "InterVarsity Christian Fellowship at SDSU",
     "description": "The purpose of InterVarsity Christian Fellowship at SDSU (IV.SDSU) is to embody a multiethnic community learning what it means to follow Jesus, experience and embody God\u2019s love and justice and seek the flourishing of all of SDSU. We do this by hosting small group Bible studies, community hangouts, prayer meetings and large group meetings. IV.SDSU seeks to partner with the different resource centers on campus to have small groups in the BRC, LRC (LaFe- Latinx Fellowship), APIDA Center (Asian American InterVarsity) and a general multiethnic study.",
     "tags": [
-      "cultural",
-      "education",
-      "law",
-      "religious/spiritual"
+      "christian",
+      "prayer",
+      "spirituality"
     ]
   },
   {
@@ -1636,50 +1599,53 @@
     "name": "Iraqi Student Association",
     "description": "The Iraqi Student Association at San Diego State University serves as a home for all students to connect and share the rich heritage of Iraq. Our mission is to foster a unified, inclusive environment that celebrates the beauty and diversity of Iraqi",
     "tags": [
-      "environment"
+      "iraqi community"
     ]
   },
   {
     "name": "ISCOR Student Society",
     "description": "Foster a sense of community among ISCOR students, while providing a platform for networking, exploration of professional opportunities, discussion of international issues, and service to the community and SDSU",
     "tags": [
-      "service"
+      "networking"
     ]
   },
   {
     "name": "Japanese Student Association",
     "description": "The Japanese Student Association of San Diego State University is dedicated to creating a better understanding of the Japanese culture among people of all backgrounds. JSA provides various career opportunities, events for social interaction, and memorable experiences for all students.",
     "tags": [
-      "social"
+      "japanese culture"
     ]
   },
   {
     "name": "Jewelry Student Co-op",
     "description": "To serve as a creative collective focused on advancement of metalworking techniques and continuing the practice of instruction of old methods",
     "tags": [
-      "arts"
+      "arts",
+      "jewelry making"
     ]
   },
   {
     "name": "Jiu Jitsu Club at SDSU",
     "description": "To practice and enjoy the sport of Jiu Jitsu",
     "tags": [
-      "sports"
+      "jiu jitsu"
     ]
   },
   {
     "name": "Kairos Christian Fellowship",
     "description": "The vision of Kairos Christian Fellowship is to \u201cLove God and Love people\" through the love of Jesus Christ, as our goal is to see people grow by developing and establishing Christian values, morals, and decision making skills. Kairos Christian Fellowship is comprised of a network of small groups on and off campus, meeting throughout the week, as a small group is where honest friendships, Bible study, constant prayer, and compassionate care are emphasized. It is within these small groups where people are able to demonstrate the love of Jesus Christ to God and to one another.",
     "tags": [
-      "religious/spiritual",
-      "social"
+      "christian",
+      "prayer",
+      "spirituality"
     ]
   },
   {
     "name": "Kappa Alpha Order (Fraternity)",
     "description": "We are the moral compass for the modern gentleman. KA helps you keep your compass straight, develop your values-set and experiences, and points you in a great direction for your future.",
     "tags": [
-      "greek life"
+      "greek life",
+      "fraternity"
     ]
   },
   {
@@ -1693,29 +1659,33 @@
     "name": "Kappa Alpha Theta Sorority",
     "description": "The intellectual ambition of the Fraternity shall be the attainment of highest scholarship. The social aim of the Fraternity shall be to exercise the widest influence for good. The moral aim of the Fraternity shall be the standard of love",
     "tags": [
-      "greek life"
+      "greek life",
+      "fraternity"
     ]
   },
   {
     "name": "Kappa Delta",
     "description": "The purpose of Kappa Delta sorority is to promote true friendship among the college girls of our country by inculcating into their hearts and lives, those values, of truth, of honor, of duty, without which there can be no true friendship",
     "tags": [
-      "greek life"
+      "greek life",
+      "sorority"
     ]
   },
   {
     "name": "Kinesiology Organization Revolutionizing Exercise (K.O.R.E.)",
     "description": "The Purpose of KORE is to allow Kinesiology students to build friendships and professional networks on and off campus. We aim to provide our students the opportunity of applying themselves inside and outside of school with notifications of Internships, Volunteer experience, on-campus lecturers, and local community events. Furthermore, we aim to provide our students with an on-campus community filled with a diverse background of students to emphasize the depth of Kinesiology as they enter their careers.",
     "tags": [
-      "service"
+      "healthcare",
+      "kinesiology"
     ]
   },
   {
     "name": "Klesis Christian Fellowship",
     "description": "The purposes of this organization are to create a space for people to seek answers to questions about God and life, to mentor students who want to grow in their faith or learn more about Christianity",
     "tags": [
-      "leadership",
-      "religious/spiritual"
+      "christian",
+      "prayer",
+      "spirituality"
     ]
   },
   {
@@ -1729,47 +1699,46 @@
     "name": "Korean American Student Association (KASA)",
     "description": "Korean Student Association strives to create a better understanding of Korean culture to American students and also help Korean foreigners understand American life. With the rising popularity of Korean media, food, and pop culture in the United States, KASA believes it is important for American students to understand Korea's identity. We strive to provide a safe and fun hangout where Korean culture enthusiasts can get together and share their love for Korea. We also have many social events where you'll have the opportunity to foster some amazing friendships with people from many different parts of the world.",
     "tags": [
-      "cultural",
-      "media/journalism",
-      "social"
+      "korean community"
     ]
   },
   {
     "name": "LaFe",
     "description": "LaFe is InterVarsity's Latino Fellowship. We're both a community of Latino Staff and a campus outreach to Latino students on campuses across the country. We are helping students and faculty explore God, faith and the experiences of our people on campuses all across the country.We work hard to develop helpful resources to establish and advance witnessing communities on campus. LaFe produces Bible studies, eBooks, blog posts, evangelistic resources and more.",
     "tags": [
-      "religious/spiritual",
-      "service"
+      "christian",
+      "prayer",
+      "spirituality",
+      "hispanic community"
     ]
   },
   {
     "name": "Lambda Pi Eta - Pi Beta Chapter",
     "description": "The purpose of Lambda Pi Eta shall be: (a) to recognize, foster, and reward outstanding scholastic achievement in communication studies;(b) to stimulate interest in the field of communication; (c) to promote and encourage professional development",
     "tags": [
-      "computer science"
+      "co-ed"
     ]
   },
   {
     "name": "Lambda Sigma Gamma Sorority",
     "description": "The purposes of this organization are to instill the desire for self-improvement, scholastic excellence and the cultivation of civic responsibility. Also, to promote unity and higher education",
     "tags": [
-      "education"
+      "co-ed"
     ]
   },
   {
     "name": "Language Exchange Community",
     "description": "The purposes of this organization are to build a community for goal-oriented language learning in fun and creative ways. Whether you are learning a language for fun or for scholarly purposes, we will work together to share resources; methods for learning effectively; tutoring; language learning buddies; language counseling; and many more! A place to learn language the way they should be\u2014through community!",
     "tags": [
-      "arts",
-      "education",
-      "social"
+      "language",
+      "international"
     ]
   },
   {
     "name": "Latin American Studies Student Organization",
     "description": "Our purpose is to gain an understanding of Latin America\u2019s place in many academic disciplines as well as to enhance the student experience in their various degree programs through exploring the cultures and influences of Latin America",
     "tags": [
-      "education"
+      "latin community"
     ]
   },
   {
@@ -1777,55 +1746,53 @@
     "description": "The purpose of this organization is to learn dance styles from a Latin cultural background such as Salsa, Bachata, Tango, Cumbia, and more within a university community. Through our social dancing events, we aim to give a space that fosters social connection, personal growth, and a sense of belonging. We hope to cultivate a supportive community that encourages self-expression, cultural understanding, and a lifelong love for Latin dance.",
     "tags": [
       "dance",
-      "social"
+      "social",
+      "latin community"
     ]
   },
   {
     "name": "Latino Student Social Work Association",
     "description": "The purpose of this organization is to educate, advocate for, and empower social work students, the social work profession, and the Latino community",
     "tags": [
-      "social"
+      "hispanic community"
     ]
   },
   {
     "name": "LatinX Pre-Law Society",
     "description": "Expanding diversity and helping students who identify as Latinx on their path to law school",
     "tags": [
-      "cultural",
-      "law"
+      "hispanic community",
+      "pre-law"
     ]
   },
   {
     "name": "Latinx Student Union",
     "description": "The purpose of this organization is to unite, educate, and empower Latinx students through the celebration of culture and the promotion of positivity, mentorship, purpose, and awareness in all that we do. We seek to bring awareness centered around equity, social justice, and anti-racism. Ultimately, to inform and involve all members in issues that may affect their lives or welfare of the community.",
     "tags": [
-      "cultural",
-      "law",
-      "social"
+      "hispanic community"
     ]
   },
   {
     "name": "Le Cercle Fran\u00e7ais - French Club",
     "description": "Share interests in French and Francophone language and culture",
     "tags": [
-      "french culture"
+      "french community"
     ]
   },
   {
     "name": "Leadership Club of SDSU",
     "description": "Leadership Club of SDSU holds in high regard diversity, inclusiveness, and ethics, always empowering each other toward excellence as we enhance personal growth that helps prepare each student for the work world. We grow best through leading with a servant\u2019s heart and a commitment to developing a broader network of members who share this desire for personal development. Our commitment to the process of Relational Leadership will support and inspire members to become effective leaders through practice and initiate real change as they get involved within the context of service. This will be achieved through creating and supporting initiatives serving both the SDSU campus community as well as the surrounding communities, such as through working with foster youth through Promises2Kids. In turn, members will be able to support their community and practice leadership models that will be discussed and practiced while creating valuable connections and life skills to enable a higher level of job readiness.",
     "tags": [
-      "computer science",
       "leadership",
-      "service",
-      "social"
+      "outreach"
     ]
   },
   {
     "name": "Linguistics Student Association",
     "description": "The purposes of the LSA are to promote and facilitate the study of Linguistics at San Diego State University through expediting and organizing various events for students and faculty interested in Linguistics",
     "tags": [
-      "language arts"
+      "language",
+      "international"
     ]
   },
   {
@@ -1833,7 +1800,8 @@
     "description": "To create a community of creativity with specification on creating music videos that requires performance on camera",
     "tags": [
       "music",
-      "theater"
+      "sound engineering",
+      "videography"
     ]
   },
   {
@@ -1847,9 +1815,8 @@
     "name": "Marine Ecology and Biology Student Association (MEBSA)",
     "description": "To foster a cohesive and supportive community among students in marine ecology and biology at San Diego State University To work towards improving the academic environment at the Coastal and Marine Institute Laboratory (CMIL) with the goal of improving the quality of research and collaboration",
     "tags": [
-      "education",
-      "environment",
-      "science"
+      "biology",
+      "stem"
     ]
   },
   {
@@ -1857,15 +1824,14 @@
     "description": "We are a multidisciplinary team of undergraduate engineering and business students from San Diego State University. Our goal is to give hands-on experience to passionate students through challenging robotics projects like autonomous underwater vehicles for the annual RoboSub competition.",
     "tags": [
       "business",
-      "engineering"
+      "engineering",
+      "mechanical engineering"
     ]
   },
   {
     "name": "MEDLIFE SDSU",
     "description": "The purpose of this organization is to help low income families achieve greater freedom from the constraints of poverty, empowering them to live healthier lives. We aim to achieve this goal through collaborations with local partners in poor communities in order to improve their access to medicine, education and community development. MedLife believes access to quality health care is a basic human right. We commit our time, resources, knowledge and aspire to bring Medicine, Education and Development to Low Income Families Everywhere. As the SDSU Chapter, we pledge to raise awareness of health conditions in other countries, send students abroad to volunteer in mobile clinics, and participate in local community service events.",
     "tags": [
-      "computer science",
-      "education",
       "healthcare",
       "service"
     ]
@@ -1874,15 +1840,14 @@
     "name": "Meeting and Events Student Association (MESA)",
     "description": "To provide opportunities for personal and professional development within the events industry in preparation for careers as meeting and event professionals.",
     "tags": [
-      "computer science"
+      "networking"
     ]
   },
   {
     "name": "Men's Basketball Club",
     "description": "The purpose of this organization is to allow students who are passionate about basketball to showcase their talents in a friendly and competitive environment while representing San Diego State University in games and tournaments throughout California and other states.",
     "tags": [
-      "environment",
-      "sports"
+      "basketball"
     ]
   },
   {
@@ -1910,27 +1875,21 @@
     "name": "Mock Trial",
     "description": "The purpose of this organization is to bring co-curricular learning and growth opportunities to students while attending competitions against other institutions and in the process, developing critical thinking and public speaking skills, as well as knowledge of legal practices and trial advocacy.",
     "tags": [
-      "education",
-      "law",
-      "politics/activism"
+      "pre-law",
+      "mock trial"
     ]
   },
   {
     "name": "Model United Nations at SDSU",
     "description": "The purpose of this organization is to provide students with a unique platform to simulate international diplomacy, mirroring the actual workings of the United Nations. Through this experience, participants gain invaluable real-world insights into global governance and diplomatic processes. In an era where civil discourse is becoming increasingly scarce and undervalued, Model United Nations serves as a crucial training ground for future leaders and politicians. By engaging in dialogue, which is the cornerstone of effective diplomacy and global stability, students develop essential skills in negotiation, public speaking, and critical thinking. This immersive experience not only enhances their understanding of complex global issues but also fosters a sense of global citizenship and cross-cultural understanding. Ultimately, Model United Nations stands as a beacon of hope, nurturing the growth of tomorrow's diplomatic leaders in a world that desperately needs effective communication and cooperation on the international stage.",
     "tags": [
-      "engineering",
-      "fashion",
-      "leadership",
-      "theater"
+      "model united nations"
     ]
   },
   {
     "name": "Mortar Board SDSU Jane K. Smith Cap and Gown Chapter",
     "description": "The purpose of the Chapter shall be to cooperate with other chapters of the Society, to contribute to the self-awareness of its members, to promote equal opportunity among all peoples, to emphasize the advancement of the status of women, to support the ideals of the academy and of San Diego State University, to advance the spirit of scholarship, to recognize and encourage leadership, to provide service, and to establish the opportunity for a meaningful exchange of ideas as individuals and as a group.",
     "tags": [
-      "leadership",
-      "service",
       "women empowerment"
     ]
   },
@@ -1938,15 +1897,15 @@
     "name": "Movimiento Estudiantil Chicanx De Aztlan (M.E.Ch.A)",
     "description": "The purpose of this organization is to support Chicanx/Latinx students to determine their educational goals and create strategies to meet them. A core component of each student\u2019s educational development is to learn about the their cultural background and gain strength from its rich traditions and heritage.",
     "tags": [
-      "computer science",
-      "cultural"
+      "hispanic cultural"
     ]
   },
   {
     "name": "Muses de l\u2019art",
     "description": "To provide more opportunities in theatre for undergraduate students while providing a diverse space and voice for women in the theatre arts. We want to facilitate a community for students to strengthen their bonds with each other in the theatre",
     "tags": [
-      "women empowerment"
+      "women empowerment",
+      "theater"
     ]
   },
   {
@@ -1961,25 +1920,23 @@
     "description": "The purpose of the Musicians' Club @ SDSU is to provide a network for musicians to communicate, promote socialization and growth in a creative environment, and allow musicians of all skill levels the opportunity to perform in front of live crowds",
     "tags": [
       "arts",
-      "environment",
-      "social"
+      "music",
+      "theater"
     ]
   },
   {
     "name": "Muslim Student Association",
     "description": "The purpose of the MSA will be to serve the best interests of the Muslim students of San Diego State University, within the framework of Islam in deriving guidance and values from the Quran and Sunnah. The MSA will: \u2022 Develop, inspire, teach their members to achieve the best they can, become God-conscious individuals, and take an active role in working for Islam in the SDSU campus community \u2022 Strengthen bonds of brotherhood/sisterhood between SDSU students \u2022 Raise awareness of Islam and Muslims on a SDSU campus level \u2022 Create service that can be utilized by Muslims and non-Muslims alike for SDSU campus students \u2022 Create and develop community connection",
     "tags": [
-      "education",
-      "religious/spiritual",
-      "service"
+      "muslim"
     ]
   },
   {
     "name": "Mustard Seed Project",
     "description": "The Mustard Seed Project's mission - guided by a \"hand up, not hand out\" philosophy - is to connect unsheltered individuals to services and programs through relationship-based outreach and volunteer case management",
     "tags": [
-      "business",
-      "service"
+      "outreach",
+      "homeless support"
     ]
   },
   {
@@ -1987,71 +1944,66 @@
     "description": "The purpose of this organization is to enhance and promote the medical knowledge of future healthcare professionals. We seek to empower undergraduate and graduate students to be active in healthcare advocacy, research, and community service through a shared Arab heritage. With medical professionals as role models, we can help to inspire and guide the career paths of our youth and give back to the Arab-American community.",
     "tags": [
       "healthcare",
-      "politics/activism",
-      "science",
-      "service"
+      "public health"
     ]
   },
   {
     "name": "National Association of Hispanic Journalists at SDSU",
     "description": "Open to all students, regardless of identity, and adheres to the same mission statement and goals as NAHJ: \u00bf\u00bforganize and provide support for Hispanic Journalists. Encourage and support the study and practices of journalism and communications by Hispanics. \u00bf\u00bfPromote accurate and fair treatment of Hispanics by the news media. Further employment opportunities and career development for Hispanics in the news media. Foster a greater understanding of the unique cultural identity, interests, and concerns of Hispanic Journalists.",
     "tags": [
-      "computer science",
-      "cultural",
-      "media/journalism"
+      "journalism",
+      "hispanic community"
     ]
   },
   {
     "name": "National Society of Black Engineers (NSBE) SDSU",
     "description": "Increase the number of culturally responsible Black Engineers who excel academically, succeed professionally, and positively impact the community",
     "tags": [
-      "cultural"
+      "engineers",
+      "black community"
     ]
   },
   {
     "name": "National Student Speech Language Hearing Association (NSSLHA) Chapter at SDSU",
     "description": "The SDSU NSSLHA Chapter is designed for students who are interested in the Speech-Language Pathology and/or Audiology professions and want to raise awareness of communication and hearing disorders",
     "tags": [
-      "language arts"
+      "language"
     ]
   },
   {
     "name": "Native American Student Alliance (NASA)",
     "description": "The purposes of this organization are to educate the community about Native American/Indigenous identifying cultures, promote social and educational development of Native students, exchange ideas and traditions with members of the Native community, and foster leadership among Native students and non-Native students.",
     "tags": [
-      "computer science",
-      "leadership",
-      "social"
+      "international"
     ]
   },
   {
     "name": "Networked Narratives",
     "description": "The purpose of this organization is to organize academic conferences on campus in order to provide students the opportunity to present their work in an academic and professional setting; furthermore, the objective of our academic conferences is to construct a space for academic conversations across distinct fields in the humanities to converse with each other.",
     "tags": [
-      "education"
+      "networking"
     ]
   },
   {
     "name": "Nikkei Student Union",
     "description": "To promote Japanese and Japanese American culture and community within the San Diego State Campus in an inclusive environment",
     "tags": [
-      "environment"
+      "japanese community"
     ]
   },
   {
     "name": "NMDP Chapter - San Diego State University",
     "description": "The purposes of this organization are to: Be the official chapter partnering with the NMDP representative to educate and engage the university or college community in this unique opportunity to save lives. Partner with the NMDP representative to plan and achieve the yearly goals of the chapter: Raise awareness of the NMDP mission to save lives through cellular therapy. Recruit committed members to the NMDP Registry\u00ae of potential marrow donors. Raise funds for NMDP patients and families through NMDP Foundation\u2019s official fundraising platform. Keep accurate records of these awareness, recruitment, and fundraising efforts and report volunteer hours each month. Ensure the chapter\u2019s sustainability by voting in officers each spring for the following year.",
     "tags": [
-      "environment",
-      "healthcare",
-      "service"
+      "outreach"
     ]
   },
   {
     "name": "Noah Hytken Memorial Fund",
     "description": "The purpose of this organization is to create a scholarship endowment in honor of the late Noah Hytken for students that promote the physical and mental health of their peers and promote mental health awareness across San Diego State University",
     "tags": [
-      "healthcare"
+      "mental health",
+      "outreach"
     ]
   },
   {
@@ -2059,29 +2011,29 @@
     "description": "The purpose of this organization is to foster an inclusive engineering-based community that promotes individual and academic growth. nth try seeks to create a sense of belonging by hosting workshops and social events that help students solidify their identity as engineers and/or SDSU students. Our goal is to support SDSU students by facilitating their engagement and involvement in their field.",
     "tags": [
       "education",
-      "engineering",
-      "social"
+      "engineering"
     ]
   },
   {
     "name": "Nu Alpha Kappa Fraternity",
     "description": "The purpose of NAK is to unite students and create better relations among students and the university and improve the life of Latinos coming to college and helping them become successful in their academic career",
     "tags": [
-      "education"
+      "hispanic community"
     ]
   },
   {
     "name": "Oaks International",
     "description": "The purpose Oaks International is to proclaim Christ and multiply disciplemakers at San Diego State University for the glory of God and the joy of all nations. We study the Bible, equip students with the basics of Christianity, and help them share God\u2019s love by serving others.",
     "tags": [
-      "religious/spiritual"
+      "christian"
     ]
   },
   {
     "name": "On the Same Page",
     "description": "This organization aims to promote engagement in reading and love for literature. Additionally, it creates a safe space to share ideas, engage in dialogue, enhance creativity, and promote community",
     "tags": [
-      "literature"
+      "books",
+      "reading"
     ]
   },
   {
@@ -2104,30 +2056,29 @@
     "description": "OUTreach is comprised of students and individuals who understand the importance of Social Work's role in creating a positive impact in the world, as well as individuals who want to learn more about the many ways social work influences systems of inequality, specifically those impacting the 2SLGBTQ+ community. The purpose of OUTreach is to advance the interests of social work students and promote student participation and involvement by organizing social, cultural, and academic activities and/or programs within the 2SLGBTQ+ community at SDSU and in San Diego. OUTreach aims to take a progressive approach to advance the education and activism of everyone who takes part in the organization. At the foundation of OUTreach, we are caring individuals who aim to better understand and positively affect the world we live in through advocating and activism for the 2SLGBTQ+ community. OUTreach commemorates the contributions 2SLGBTQ+ people have made to the social work discipline and to the world at large. By honoring 2SLGBTQ+ culture, resilience, and social welfare contributions, OUTreach assists the School of Social Work in recognizing the presence and value of diversity.",
     "tags": [
       "education",
-      "politics/activism",
-      "service",
-      "social"
+      "outreach"
     ]
   },
   {
     "name": "Pacific Islander Student Association (PISA)",
     "description": "The purpose of this organization is to promote higher education among Pacific Islander youth. The organization consists of students with Pacific Islander heritage and non-Pacific Islander students. Pacific Islander students represent less than 0.5%",
     "tags": [
-      "education"
+      "islander"
     ]
   },
   {
     "name": "Pathways Mentors",
     "description": "This organization serves to build strong relationships between Pathways Tutors, their peers, and the community at large in assisting potential first-generation, low-income, and underserved students with entrance and completion of higher education",
     "tags": [
-      "education"
+      "outreach"
     ]
   },
   {
     "name": "Payment for Placements at San Diego State University",
     "description": "The purpose of this organization is to advocate, organize, and petition for all SDSU School of Social Work students to be paid for their degree-required internships.",
     "tags": [
-      "social"
+      "social work",
+      "outreach"
     ]
   },
   {
@@ -2141,31 +2092,28 @@
     "name": "Phi Alpha Theta National History Honor Society",
     "description": "The purpose of this organization is to encourage academic excellence and professional development in the study of history at San Diego State University",
     "tags": [
-      "computer science",
-      "education"
+      "co-ed"
     ]
   },
   {
     "name": "Phi Beta Sigma Fraternity, Inc.",
     "description": "The purpose of Phi Beta Sigma Fraternity is to live by the high ideals of brotherhood, scholarship and service and carry on the dream of our three founders. We are a fraternity for the community and not above it. We serve our campus and our community with the best in conduct.",
     "tags": [
-      "service"
+      "fraternity"
     ]
   },
   {
     "name": "Phi Delta Theta Fraternity (Phi Delt)",
     "description": "We the brothers of Phi Delta Theta, California Pi chapter are committed to the development of diverse men who exemplify the qualities a: Gentleman Men who represent the principles of humility, honor, excellence, and integrity while respecting their brothers and community. Scholar Men who strive to educate themselves in and out of the classroom. Brother Men who build and strengthen the bonds of brotherhood through friendship, support, and loyalty. Leader Influential men who will take the initiative to be both innovative and committed to bettering the community at San Diego State University while maintaining the highest levels of integrity and upholding the Cardinal Principles of Phi Delta Theta.",
     "tags": [
-      "computer science"
+      "fraternity"
     ]
   },
   {
     "name": "Phi Kappa Tau Fraternity",
     "description": "We, the men of San Diego State University, in order to develop a lasting legacy of distinction, to instill the fundamentals of brotherhood, scholarship, and character, to promote democratic ethical leadership in the community, to maintain the ideals passed down by the founding fathers, to encourage philanthropic venture, service to the community, and diversity, and to strengthen the bond and pride in our Alma Mater, do hereby establish these bylaws for the Beta Nu chapter of Phi Kappa Tau Fraternity.",
     "tags": [
-      "lgbtq+",
-      "leadership",
-      "service"
+      "fraternity"
     ]
   },
   {
@@ -2179,7 +2127,7 @@
     "name": "Photography Club",
     "description": "The purposes of this organization are to create a supportive community that promotes passion, creativity, and knowledge through photography and fosters growth in technical skills and artistic vision to photographers of all levels of experience.",
     "tags": [
-      "arts"
+      "photography"
     ]
   },
   {
@@ -2187,35 +2135,28 @@
     "description": "Established in January 2000, The Physician Assistant Student Association (PASA) is a non-profit, student organization of San Diego State University that brings together students aspiring to become Physician Assistants. PASA collaborates with SDSU faculty, SDSU Pre-Health Organizations, Physician Assistants, Medical Doctors, and other Healthcare Professionals to provide our members with the opportunity to gain more knowledge about PA programs, network, become involved in the community, and gain preparation for becoming a PA.",
     "tags": [
       "healthcare",
-      "social"
+      "physical therapy"
     ]
   },
   {
     "name": "Pi Beta Phi Sorority",
     "description": "The mission of Pi Beta Phi Fraternity for Women is to promote friendship, develop women of intellect and integrity, cultivate leadership potential and enrich lives through community service. At the California Epsilon chapter of Pi Beta Phi, we continue to uphold these values and maintain a strong presence on campus and within the community.",
     "tags": [
-      "leadership",
-      "service",
-      "women empowerment"
+      "sorority"
     ]
   },
   {
     "name": "Pi Sigma Alpha - Gamma Upsilon Chapter",
     "description": "The purpose of the organization is to recognize excellence in academic achievement by undergraduate and graduate students in the fields of political science, government, international and public affairs; to stimulate scholarship and interest in political science; to promote worthwhile curricular and extracurricular activities related to political science; to promote civil dialog; and to engage in any other activities that further these purposes.",
     "tags": [
-      "education",
-      "engineering",
-      "politics/activism",
-      "science"
+      "co-ed"
     ]
   },
   {
     "name": "Planned Parenthood Generation Action of SDSU",
     "description": "Planned Parenthood Generation Action of San Diego State University aims to educate our members and the greater community on sexual health, reproductive health, and reproductive justice. We promote civic engagement through political outreach on campus and in the community. We are committed to challenging single-issue organizing through cross-sector movement building and viewing issues from an intersectional lens. We are dedicated to providing a safe, accessible, and inclusive space open to all people. Planned Parenthood Generation Action of San Diego State University seeks to accomplish all of these things while honoring the women of color who came before us, using the reproductive justice framework that they established.",
     "tags": [
-      "healthcare",
-      "law",
-      "service",
+      "activism",
       "women empowerment"
     ]
   },
@@ -2223,9 +2164,7 @@
     "name": "Planned Parenthood Generation Action SDSU IV",
     "description": "Planned Parenthood Generation Action San Diego State University- Imperial Valley aims to educate our members and the greater community on sexual health, reproductive health, and reproductive justice. We promote civic engagement through political outreach on campus and in the community. We are committed to challenging single-issue organizing through cross-sector movement building and viewing issues from an intersectional lens. We are dedicated to providing a safe, accessible, and inclusive space open to all people. Planned Parenthood Generation Action San Diego State University- Imperial Valley seeks to accomplish all of these things while honoring the women of color who came before us, using the reproductive justice framework that they established.",
     "tags": [
-      "healthcare",
-      "law",
-      "service",
+      "activism",
       "women empowerment"
     ]
   },
@@ -2233,101 +2172,87 @@
     "name": "Political Science Graduate Student Association",
     "description": "Foster a community of likeminded individuals who share a passion for understanding the political issues impacting our world today. The organization may host their own public discussions in order to encourage a lively exchange of ideas between both the student members and other potential guests. On some occasions, the PSGSA aspires to help by co-hosting political lectures, debates, book promotions and guest speakers. On the recreational side, the PSGSA wants to host special events bring graduates in the Political Science Department together through entertainment and catering. To promote further outreach of the PSGSA, the association plans on coordinating with other student and activist organizations belonging to politically adjacent and complementary fields, particularly organizations and institutions associated with the College of Arts and Letters. Lastly, the PSGSA hopes to find ways to promote community service across the city of San Diego.",
     "tags": [
-      "science",
-      "service"
+      "politics",
+      "pre-law"
     ]
   },
   {
     "name": "Political Science Student Organization at SDSU",
     "description": "The Political Science Student Organization is dedicated to connecting students with a love for political science through a variety of discussions, meetings, and events. We want to foster solidarity between students of different backgrounds with the enjoyment of politics as a major, minor, and interest.",
     "tags": [
-      "politics/activism",
-      "science"
+      "politics",
+      "activism"
     ]
   },
   {
     "name": "Positivity Club",
     "description": "Our organization's goal is \"to be the reason someone smiles today\". We practice random acts of kindness throughout campus and make improving student's mental health a priority. Our overall purpose is to be an outlet for students to come to and to overall make the world a happier place:)",
     "tags": [
-      "healthcare"
+      "mental health",
+      "outreach"
     ]
   },
   {
     "name": "Postsecondary Educational Leadership and Student Affairs (PELSA)",
     "description": "The purposes of this organization are to maintain communication and organization amongst members of the Student Advisory Board (organization\u2019s executive board) of the Master of Arts: Postsecondary Educational Leadership with a Specialization in Student Affairs graduate program. The organization must also communication information to the greater postsecondary Educational Leadership (PSE) and Student Affairs (SA) cohorts.",
     "tags": [
-      "leadership"
+      "education"
     ]
   },
   {
     "name": "Pre-Dental Organization",
     "description": "The SDSU Pre-Dental Organization offers students a positive environment to explore the field of Dentistry. The organization aims to provide experiences for students that help them to determine if Dentistry is the right career path for them. Through meeting with admissions counselors at some of the top dental schools in the country, to practicing soap carving teeth, the SDSU Pre-Dental Organization is determined to guide students through such a rigorous pre-health path. Not only does SDSU Pre-Dental Organization offer hands-on experiences to explore Dentistry and thoroughly educate on the process to dental school, but also provides unlimited support for each student throughout their Pre-Dental journey.",
     "tags": [
-      "environment",
-      "healthcare"
+      "dental"
     ]
   },
   {
     "name": "Pre-Law Society",
     "description": "To provide San Diego State University students with information about the LSAT, law school application process, law school itself, as well as the legal field as a whole.",
     "tags": [
-      "law"
+      "pre-law"
     ]
   },
   {
     "name": "Pre-Occupational Therapy Student Association (POTSA)",
     "description": "The Pre-Occupational Therapy Student Association (POTSA) serves to enhance our members knowledge of occupational therapy by providing various resources essential to succeeding in the field. Members will have opportunities to connect with practitioners, their fellow peers, SDSU faculty, and the community through volunteer work, observation, and guest presentations. POTSA assists our members with the graduate school application process through peer support, facilitation of workshops, and graduate school visits, in addition to other events. We aim to inspire students to form meaningful connections with the world of occupational therapy.",
     "tags": [
-      "healthcare",
-      "service"
+      "healthcare"
     ]
   },
   {
     "name": "Pre-Veterinary Medical Association (PVMA)",
     "description": "The Pre-Veterinary Medical Association at San Diego State University is a campus organization that serves to educate the public, students, and members about the field of veterinary medicine. We foster an environment of support, teamwork, and general compassion towards animals and humans alike. The membership shall strive to gain exposure to various aspects of veterinary medicine through volunteer opportunities, hands-on experience, and education.",
     "tags": [
-      "education",
-      "environment",
-      "healthcare",
-      "service"
+      "veterinary medicine"
     ]
   },
   {
     "name": "Premier Muay Thai Club",
     "description": "My purpose is to create a vibrant and inclusive community centered around the art of Muay Thai, fostering an environment where individuals can learn, grow, and connect both physically and mentally. Our club is dedicated to promoting the benefits of martial arts, fitness, and camaraderie, offering a unique space on campus where members can embark on a journey of self-improvement and build lasting relationships.",
     "tags": [
-      "arts",
-      "environment"
+      "muay thai"
     ]
   },
   {
     "name": "Project Rebound Student Alliance",
     "description": "The purpose of this organization is to foster a support network among students at San Diego State University (SDSU) who are formerly incarcerated, system impacted and/or allies of this population. Project Rebound Student Alliance (PRSA) will promote awareness of the carceral experiences by combining the lived experiences of SDSU Project Rebound program participants and the academic knowledge of other SDSU students. PRSA will promote social growth, academic insights, leadership development, peer advising, and community involvement. The mission of the Project Rebound Student Alliance (PRSA) is to unite program participants of Project Rebound with the campus community at San Diego State University through fellowship, leadership development, and peer to peer support. PRSA will serve as a support network for students that have been previously incarcerated with students who may be justice impacted and/or care to deepen their understanding of the societal impact the justice system has on society and are actively pursuing academic and social growth for themselves and others. Members of PRSA will be involved with furthering the vision of our Org by bridging the gap between formerly incarcerated students with non formerly incarcerated students and thereby reducing stigmas associated with incarceration and thereby increasing our member\u2019s academic success and our organization's reach and impact throughout campus and community.",
     "tags": [
-      "computer science",
-      "education",
-      "law",
-      "leadership",
-      "social"
+      "outreach"
     ]
   },
   {
     "name": "Psi Chi",
     "description": "Our club allows students to become more involved in the field of Psychology through: lectures, social events, community service, and networking.",
     "tags": [
-      "service",
-      "social"
+      "psychology"
     ]
   },
   {
     "name": "Psychedelic Club",
     "description": "1. Education and Awareness: To provide a platform for students and faculty to learn about psychedelics, their history, cultural significance, potential benefits and risks, and their role in mental health treatment and personal well-being. 2. Responsible Discourse: To foster open and informed discussions about psychedelics, allowing members to share their perspectives, experiences, and knowledge in a respectful and nonjudgmental environment. 3. Research and Exploration: To explore the scientific and therapeutic potential of psychedelics by reviewing existing research and inviting experts to share their findings. 4. Harm Reduction: To promote responsible and safe use of psychedelics by sharing harm reduction strategies and resources to minimize potential risks associated with use. 5. Cultural and Historical Context: To examine the historical, cultural, and societal aspects of psychedelics, including their use in various indigenous traditions and ceremonial contexts. 6. Community Building: To create a supportive and inclusive community of like-minded individuals interested in exploring the multifaceted aspects of psychedelics. 7. Guest Speakers and Workshops: To invite experts, researchers, and practitioners to provide lectures, workshops, and presentations to expand members' knowledge. 8. Outreach and Collaboration: To collaborate with other student organizations, academic departments, and community organizations interested in similar topics.",
     "tags": [
-      "education",
-      "environment",
-      "healthcare",
-      "science",
-      "service"
+      "social"
     ]
   },
   {
@@ -2341,76 +2266,71 @@
     "name": "Public Relations Student Society of America (PRSSA)",
     "description": "The Public Relations Student Society of America (PRSSA) is a nationally recognized pre-professional organization founded by the Public Relations Society of America (PRSA) in 1968. PRSSA cultivates a favorable and mutually advantageous relationship between students and professional public relations practitioners.",
     "tags": [
-      "public relations"
+      "politics"
     ]
   },
   {
     "name": "Raptor Club",
     "description": "Raptor Club is the fundraising organization for San Diego State University\u2019s Detachment 075 ROTC. The purpose of Air Force ROTC is to develop quality leaders that will enter active duty as officers in the United States Air Force. We train on the San Diego State University campus, but have limited student-monitored funds, which support our program. In order to maximize the quality of training given to the students in our program we strive to organize fundraising through various volunteer opportunities that include working at large events and other fundraisers. Funds raise go towards leadership training and supplies for all of our students. In the past we have used the funds raised towards special activities to provide unique and effective training opportunities. These activities include water survival training, challenging ropes and obstacle courses, self-defense and martial arts classes, paintball and laser tag team-building exercises",
     "tags": [
-      "leadership",
-      "service"
+      "rotc"
     ]
   },
   {
     "name": "Real Estate Society of SDSU",
     "description": "The purpose of this Society is to thoroughly prepare our members for a rewarding career in the myriad opportunities presented by the real estate industry by facilitating learning, scholarship, networking, experience-building, and internship opportunities and by connecting our members with our professional partners and sponsors.",
     "tags": [
-      "education"
+      "marketing"
     ]
   },
   {
     "name": "Recovery at State",
     "description": "We are a culturally diverse group of SDSU undergraduates, graduates, staff, faculty, and alumni who have come together to fight the stigma of behavioral, drug, and alcohol addiction and to create a safe, sober environment in which SDSU students can flourish.",
     "tags": [
-      "environment"
+      "outreach"
     ]
   },
   {
     "name": "Recreation and Tourism Student Association",
     "description": "To create opportunities for students of Recreation Tourism Management majors to get involved on campus, network with professionals, develop career goals, and to extend the knowledge of the Recreation and Tourism Management as a major to more students.",
     "tags": [
-      "business",
-      "social"
+      "management",
+      "marketing"
     ]
   },
   {
     "name": "Red Cross Club: SDSU",
     "description": "Guided by the fundamental principles of the American Red Cross and its mission to prevent and alleviate human suffering in the face of emergencies by mobilizing the power of volunteers and the generosity of the donors the SDSU Red Cross Club, will learn, practice and exemplify humanitarian values through mission-related service projects.",
     "tags": [
-      "service"
+      "healthcare"
     ]
   },
   {
     "name": "Refugee Aid Initiative SDSU",
     "description": "Refugee Aid Initiative is a non-profit, community service based organization aimed in the support, aid, and advocacy of refugee and underserved communities.",
     "tags": [
-      "politics/activism",
-      "service"
+      "activism"
     ]
   },
   {
     "name": "Rehabilitation Counseling Student Association (RCSA)",
     "description": "The purpose of this organization is to support Rehabilitation Counseling students by providing them with opportunities to develop academically, socially, and professionally. We encourage students to cultivate and foster relationships both on campus and within the community. We do this by exchanging information, networking, mentoring, reaching out to prospective students, planning a lecture series, presenting research, and attending conferences.",
     "tags": [
-      "science"
+      "rehabilitation"
     ]
   },
   {
     "name": "Rho Lambda",
     "description": "Rho Lambda is a national sorority leadership recognition society. The purpose of this organization is to honor those women within the San Diego State University\u2019s social sorority community who have been outstanding in the display of demonstrated leadership, ability, and loyalty to the Greek community and their sorority.",
     "tags": [
-      "leadership",
-      "social",
-      "women empowerment"
+      "sorority"
     ]
   },
   {
     "name": "Rocket Project",
     "description": "The objective of this organization is to further and enhance the education of Engineering students with hands-on design/fabrication pertaining to aerospace related projects",
     "tags": [
-      "arts",
-      "education",
+      "aerospace engineering",
       "engineering"
     ]
   },
@@ -2418,8 +2338,7 @@
     "name": "Rotaract of San Diego State University",
     "description": "The objective this organization shall be to become acquainted with each other as an opportunity for service; to practice high ethical standards in business and professions; to practice ideals in personal, business, and community life; and to promote international understanding and goodwill. We follow the motto \"service above self.\"",
     "tags": [
-      "business",
-      "service"
+      "business"
     ]
   },
   {
@@ -2433,31 +2352,29 @@
     "name": "Running Club at SDSU",
     "description": "The purpose of this organization is to create an accessible and all-abilities athletic club on campus based around the activity of running. The club will also organize low-cost resources for running competitions, including uniforms, transportation, and lodging.",
     "tags": [
-      "sports"
+      "sports",
+      "running"
     ]
   },
   {
     "name": "Running Physical Therapy Association",
     "description": "The purpose of this club is to enable future physical therapists to develop clinical reasoning by evaluating and managing runners.",
     "tags": [
-      "healthcare"
+      "running"
     ]
   },
   {
     "name": "Sailing Team at SDSU",
     "description": "The purpose of this organization is to provide an environment for beginning and advanced sailors to practice their knowledge of sailing and compete in a series of competitive races, known as regattas, against other schools. This team will also help to promote leadership and teamwork skills at San Diego State University.",
     "tags": [
-      "environment",
-      "leadership"
+      "sailing"
     ]
   },
   {
     "name": "San Diego Racing Team",
     "description": "The San Diego Racing Team at SDSU aims to provide hands-on experience in car maintenance, modification, and design theory. We engage with industry experts and offer practical opportunities for students to apply automotive design concepts, bridging the gap between academic learning and real-world application.",
     "tags": [
-      "arts",
-      "education",
-      "sports"
+      "mechanical engineering"
     ]
   },
   {
@@ -2485,48 +2402,44 @@
     "name": "Save Soil SDSU",
     "description": "The purpose of this organization is to raise awareness about soil health and the messages of Save Soil\u2014the global movement\u2014among students at SDSU and the surrounding San Diego community. As 52% of the world's agricultural soil is already degraded, Save Soil--the global movement--aims to raise the support of 4 billion people (60% of the world\u2019s electorate) to drive policies in democratic nations, including the U.S., towards revitalizing soil health by increasing the organic content in soil to a minimum of 3-6%.",
     "tags": [
-      "healthcare"
+      "environment"
     ]
   },
   {
     "name": "School Counseling Graduate Student Association",
     "description": "Section 1: To provide peer support through mentorship and collaboration for the students progressing through the Master\u2019s in School Counseling program . Section 2: To inform prospective students about the M.S. in Counseling & PPS Credential program at San Diego State University. Section 3: To grant opportunities for professional involvement and development. Section 4: To present additional education and training for the field of school counseling Section 5: To foster relationship between cohorts outside of school setting Section 6: The Association shall be nonprofit, nonpartisan and nonsectarian in its purpose and activities.",
     "tags": [
-      "computer science",
-      "education"
+      "social work",
+      "outreach"
     ]
   },
   {
     "name": "School Psychology Student Association",
     "description": "The purposes of the Association shall be: a. To promote professional growth of students in the School Psychology Program. b. To educate students and the community about the services and practice of psychology in the schools. c. To better prepare the school psychology community to serve the mental health and education needs of all children and youth in a multicultural society. d. To provide an opportunity for school psychology students to develop leadership roles.",
     "tags": [
-      "education",
-      "healthcare",
-      "leadership"
+      "psychology"
     ]
   },
   {
     "name": "Schwartz Astronomical Society",
     "description": "The purposes of this organization are to promote the interest and education of Astronomy to society members and interested members of the SDSU community and general public. In addition, it would help to integrate both students and faculty from the SDSU Astronomy Department, which would enhance the quality of education of each student. As a result, it would enforce professional integrity in academic work and provide outlets for academic stress.",
     "tags": [
-      "education"
+      "astronomy",
+      "physics"
     ]
   },
   {
     "name": "SIAM Student Chapter, SDSU",
     "description": "To further the application of mathematics to industry and science, to promote basic research in mathematics leading to new methods and techniques useful to industry and science, and to provide media for the exchange of information and ideas between mathematicians and other technical and scientific personnel.",
     "tags": [
-      "mathematics",
-      "media/journalism",
-      "science"
+      "stem",
+      "mathematics"
     ]
   },
   {
     "name": "Sigma Alpha Zeta Sorority",
     "description": "Sigma Alpha Zeta Inc. is a multi-cultural organization that promotes the upward mobility of women through Sisterhood, Academic Achievement, and Community Service",
     "tags": [
-      "education",
-      "service",
       "women empowerment"
     ]
   },
@@ -2534,57 +2447,49 @@
     "name": "Sigma Chi Fraternity",
     "description": "The fundamental purpose of the Sigma Chi Fraternity is the cultivation, maintenance and accomplishment of the ideals of Friendship, Justice and Learning within our membership. Sigma Chi Fraternity best serves its purpose by developing, implementing and monitoring programs that foster leadership, build character and promote positive relationship skills that, in turn, enable our members to become productive and caring participants in their families, colleges and communities.",
     "tags": [
-      "education",
-      "law",
-      "leadership"
+      "fraternity"
     ]
   },
   {
     "name": "Sigma Gamma Rho Sorority, Inc.",
     "description": "Section 101. Sigma Gamma Rho Sorority's aim is to enhance the quality of life within the community. Public service, leadership development and education of youth are the hallmark of the organization's programs and activities. Sigma Gamma Rho addresses concerns that impact society educationally, civically and economically.",
     "tags": [
-      "computer science",
-      "education",
-      "leadership",
-      "service"
+      "sorority"
     ]
   },
   {
     "name": "Sigma Lambda Beta International Fraternity Inc.",
     "description": "The purpose of Sigma Lambda Beta shall primarily consist of the following: -To promote Latino culture/heritage in a positive manner. -To promote standards of excellence in morality, ethics and education. -To better serve the needs and desires of society by disseminating the diverse cultures that each of us possess.",
     "tags": [
-      "education"
+      "hispanic community"
     ]
   },
   {
     "name": "Sigma Nu Fraternity",
     "description": "To develop ethical leaders inspired by the principles of Love, Honor, and Truth. To foster the personal growth of each man's mind, heart, and character. To perpetuate lifelong friendships and commitment to the Fraternity",
     "tags": [
-      "leadership"
+      "fraternity"
     ]
   },
   {
     "name": "Sigma Phi Omega Sorority",
     "description": "The purpose of this organization shall be to develop a greater womanhood through service to the school, community and social interaction. The purpose shall be to promote sisterhood among the members of the organization.",
     "tags": [
-      "service",
-      "social"
+      "sorority"
     ]
   },
   {
     "name": "Sigma Theta Psi Multicultural Sorority",
     "description": "Sigma Theta Psi was formed on November 13, 1991 at San Jose, California by 18 women seeking to solidify and immortalize the values and responsibilities which embodied their persons. They strove to share their message of cultural diversity, respect and compassion with other women. By the means of honesty, loyalty, respect, open-mindedness, leadership, and academic excellence we carry forth the vision of these 18 women.",
     "tags": [
-      "education",
-      "leadership",
-      "women empowerment"
+      "sorority"
     ]
   },
   {
     "name": "Sikh Student Association",
     "description": "The purpose of SSA is to unite Sikhs from across the campus of SDSU with the teachings of our faith and culture, educating not just ourselves, but anyone who would be interested.",
     "tags": [
-      "religious/spiritual"
+      "faith-based"
     ]
   },
   {
@@ -2598,8 +2503,7 @@
     "name": "Skateboarding and Action Sports Club",
     "description": "The Skateboarding and Action Sports club aims to create a community and safe space where people of different skill levels and passions can connect, learn, grow and most importantly have fun together leaving a lasting positive impact on SDSU",
     "tags": [
-      "social",
-      "sports"
+      "skateboarding"
     ]
   },
   {
@@ -2623,22 +2527,24 @@
     "name": "Social Workers of Color Student Coalition",
     "description": "The purpose of this organization is to create an alliance for people who self-identify as people of color in the social work field by reflecting and respecting our experiences within and beyond the Bachelor's and Master's of Social Work programs",
     "tags": [
-      "social"
+      "social work",
+      "outreach"
     ]
   },
   {
     "name": "Society for Human Resource Management (SHRM)",
     "description": "The Society for Human Resource Management (SHRM) Student Chapter provides SDSU students with the opportunity to gain knowledge and insight into the effective management of human capital in the field of Human Resource Management. The Chapter promotes the exchange of work-related experience of established business professionals with the theoretical academic perspectives of student and faculty members through open forums and information exchanges. We encourage the acquisition, growth and continuation of our respective careers in Human Resource Management through expanded knowledge, camaraderie, respect and mutual support among chapter members and through our affiliation with national, sponsoring and other student chapters.",
     "tags": [
-      "business",
-      "education"
+      "social work",
+      "outreach"
     ]
   },
   {
     "name": "Society of American Military Engineers Student Chapter",
     "description": "To connect, integrate, promote, and support SDSU Undergrads to, and with, Military Engineering Industry by providing industry mentoring, internships, scholarships, and building relationships to enhance future career opportunities.",
     "tags": [
-      "engineering"
+      "engineering",
+      "military"
     ]
   },
   {
@@ -2661,31 +2567,30 @@
     "name": "Society of Hispanic Professional Engineers at SDSU (SHPE)",
     "description": "SHPE changes lives by empowering the Hispanic community to realize its fullest potential and to impact the world through STEM awareness, access, support and development",
     "tags": [
-      "computer science",
-      "cultural"
+      "hispanic community"
     ]
   },
   {
     "name": "Society of Physics Students",
     "description": "The purposes of this organization are: a) encourage and assist students interested in physics to develop the knowledge, competence, enthusiasm, and social responsibility that are essential to the advancement of physics; b) stimulate interest in advance study and research in physics; c) develop collegiality among physics students and faculty members; d) promote public interest in physics; and e) provide liaison between students and the member societies of the American Institute of Physics.",
     "tags": [
-      "science",
-      "social"
+      "physics",
+      "stem"
     ]
   },
   {
     "name": "Society of Professional Journalists",
     "description": "The purposes of this organization is to promote the free flow of information vital to a well-informed citizenry through the daily work of its members; work to inspire and educate current and future journalists through professional development; and protect First Amendment rights.",
     "tags": [
-      "computer science"
+      "law",
+      "politics"
     ]
   },
   {
     "name": "Society of Statisticians and Actuaries (SSA)",
     "description": "The purposes of this organization are to allow students interested in statistics or becoming an actuary an opportunity to meet other students, create study groups, practice application skills working on projects, network with guest speakers in the field, and learn from specialized workshops.",
     "tags": [
-      "mathematics",
-      "social"
+      "data science"
     ]
   },
   {
@@ -2714,16 +2619,15 @@
     "name": "Southeast Asian American Alliance",
     "description": "The Southeast Asian American Alliance is a non-profit organization dedicated to educating and celebrating the rich cultures of Southeast Asian countries. We aim to increase visibility and awareness of SEA students. We hope to be able to protect and preserve the cultures of Southeast Asia. The Southeast Asian American Alliance strives to build a welcoming community that is accepting of all races, gender identities, nationalities, and religions.",
     "tags": [
-      "cultural"
+      "southeast asian"
     ]
   },
   {
     "name": "Space Club",
     "description": "The Space Club focuses on advancing space-related systems and technologies through hands-on engineering projects and research. We provide members with opportunities for both professional growth and casual engagement by working on practical engineering challenges, participating in space and technology research, and gaining exposure to the space industry. Throughout the semester, members will engage in engineering projects, take field trips to visit leading space-related companies, and explore the latest advancements in the field. The club also fosters a welcoming and supportive community, with regular events that encourage networking and collaboration among individuals passionate about space exploration. The Space Club is committed to staying informed about the latest developments in space technology and encouraging creativity in applying new knowledge to our projects.",
     "tags": [
-      "computer science",
       "engineering",
-      "science"
+      "aerospace engineering"
     ]
   },
   {
@@ -2744,9 +2648,6 @@
     "name": "Sports Business Initiative",
     "description": "The purpose of this organization is to help students that are interested in the sports business field and connecting them with a network of speakers and professional events with leaders from professional sports organizations, and sports-related businesses.",
     "tags": [
-      "business",
-      "leadership",
-      "social",
       "sports"
     ]
   },
@@ -2754,47 +2655,44 @@
     "name": "Stateside Breaks",
     "description": "To provide a healthy and positive environment for those who are interested in breaking, the dance element of Hip-Hop culture, on San Diego State University campus",
     "tags": [
-      "dance",
-      "environment"
+      "dance"
     ]
   },
   {
     "name": "Stitches @ SDSU",
     "description": "To meet with like-minded creatives to crochet, knit, and craft.",
     "tags": [
-      "arts"
+      "crocheting"
     ]
   },
   {
     "name": "Student Academy of Audiology (SAA)",
     "description": "Promote audiology in the public and student professional growth in the field",
     "tags": [
-      "performing arts"
+      "sound engineering"
     ]
   },
   {
     "name": "Student Accounting Society",
     "description": "Our objective is to assist accounting students in becoming better informed about the accounting profession, introduce them to the opportunities available in the private and public industries, coordinate events with professionals that will help guide them on their career path, and help them take that first step into their chosen profession. Our Goals Specifically Include: Promoting interaction between students, faculty, and professionals through educational workshops, community service, and social events. Encouraging student involvement, leadership, and excellence in both SAS and SDSU. Providing members with a forum to learn about the different careers in the accounting field. Assisting students in reaching their academic and professional goals by offering workshops, industry guest speakers, and networking opportunities.",
     "tags": [
-      "education",
-      "leadership",
-      "service",
-      "social"
+      "business",
+      "marketing",
+      "management"
     ]
   },
   {
     "name": "Student African American Brotherhood (SAAB)",
     "description": "For the recruitment and retention of African American males at SDSU; providing a space for brothers to build networks, gain mentorship, participate in workshops, and build resources",
     "tags": [
-      "cultural"
+      "black community"
     ]
   },
   {
     "name": "Student African American Sisterhood (SAAS)",
     "description": "The purpose of SAAS is to serve as a body for women of the African Diaspora that are recognized by San Diego State University. This organization brings together women who are interested in promoting the conscious issues that women of African descent",
     "tags": [
-      "cultural",
-      "women empowerment"
+      "afrikan community"
     ]
   },
   {
@@ -2816,25 +2714,23 @@
     "name": "Student Nurses Association",
     "description": "The mission of Student Nurses Association - San Diego State University (SNA-SDSU) is to foster nursing education, facilitate early unity among our future colleagues in nursing, and optimize the nursing student's exposure to the numerous specialties and pathways in the ever-changing field of nursing.",
     "tags": [
-      "education",
-      "healthcare"
+      "healthcare",
+      "nursing"
     ]
   },
   {
     "name": "Student Nurses Association - Imperial Valley (SNA-IV)",
     "description": "The purposes of SNA-SDSUIV are: To assume responsibility for contributing to nursing education in order to provide for the highest quality of healthcare. To provide programs representative of fundamental and current professional interest and concerns. To aid in the development of the whole person, their professional role, and their responsibility for the health care of people in all walks of life.",
     "tags": [
-      "computer science",
-      "education",
-      "healthcare"
+      "nursing"
     ]
   },
   {
     "name": "Student Nutrition Organization",
     "description": "The purpose of this organization is to serve the San Diego community through nutrition education, nutrition and wellness advocacy, and nutrition-related philanthropy, as well as to provide its student members with practical field experiences, community involvement, and understanding of the diverse opportunities in nutrition.",
     "tags": [
-      "education",
-      "politics/activism"
+      "public health",
+      "healthcare"
     ]
   },
   {
@@ -2864,31 +2760,30 @@
     "name": "Students for Justice in Palestine",
     "description": "As a student organization, SJP is committed to promote awareness to our community and fellow students about Palestinian culture, history, heritage, and current political issues. SJP\u2019s activities include biweekly general body meetings, interactive educational events, film screenings, discussion forums, teach-ins, and demonstrations designated to encourage activism in solidarity with the struggle of the Palestinian people.",
     "tags": [
-      "education",
-      "politics/activism"
+      "palestenian community",
+      "activism"
     ]
   },
   {
     "name": "Students for Public Health at SDSU",
     "description": "The purpose of this organization is to improve public health, promote individual well-being, and eliminate health disparities across San Diego and around the world. This organization also seeks to educate students on current public health issues and is a way for students to become involved within the community.",
     "tags": [
-      "healthcare"
+      "healthcare",
+      "public health"
     ]
   },
   {
     "name": "Students HEAL",
     "description": "Student HEAL, Health & Education Abroad through Leadership, (a student-led nonprofit organization) will be sending a group of students and medical professionals to Sangkhlaburi, Thailand in January 2021. We will spend approximately eleven days traveling to the rural areas of Sangkhlaburi while setting up temporary clinics where people can come and receive medical treatment free of charge. In addition to providing medical care, we are hoping to fundraise at least $15,000, so we are able to bring essential medication and medical supplies to help us provide quality care.",
     "tags": [
-      "education",
       "healthcare",
-      "leadership"
+      "outreach"
     ]
   },
   {
     "name": "Students Supporting Israel",
     "description": "Students Supporting Israel promotes unity and joint action among pro-Israel students. The organization aims to arrange and hold informational meetings and social events in order to educate the SDSU community about Israel, its role in and contributions to the region and the world, and about the conflict in the Middle East. The organization encourages dialogue among those interested in Israeli society, culture, and politics.",
     "tags": [
-      "politics/activism",
       "social"
     ]
   },
@@ -2906,15 +2801,15 @@
     "name": "Surfrider Club at SDSU",
     "description": "Surfrider is dedicated to protecting and enjoying the world\u2019s oceans, waves, and beaches for all people through a powerful activist network. At the center of every action we take is our mission, our grassroots structure, and our local perspectives",
     "tags": [
-      "social"
+      "surfing"
     ]
   },
   {
     "name": "Tabletop Gaming Club",
     "description": "TTGC works to create a fun environment where we can play board games and make friends. Discord Invite Link: https://discord.gg/PSRm2MSV8j Instagram: ttgc.sdsu",
     "tags": [
-      "environment",
-      "social"
+      "gaming",
+      "board games"
     ]
   },
   {
@@ -2928,15 +2823,15 @@
     "name": "Tau Beta Pi CAX",
     "description": "The purpose of this organization shall be, to mark in a fitting manner those who have conferred honor upon their alma mater by distinguished scholarship and exemplary character as undergraduates in the field of engineering, or by their attainments as alumni in the field of engineering, and to foster a spirit of liberal culture in the engineering colleges",
     "tags": [
-      "engineering"
+      "engineering",
+      "co-ed"
     ]
   },
   {
     "name": "Tau Kappa Epsilon Fraternity",
     "description": "Our purpose of being a TKE: advancing character and personal development means unlocking the potential for each man to be a great college graduate and productive citizen. A Teke is a man who is trustworthy and lives the values enunciated in our Declaration of Principles, helping each member integrate Love, Charity, and Esteem into his daily life.",
     "tags": [
-      "computer science",
-      "service"
+      "fraternity"
     ]
   },
   {
@@ -2950,33 +2845,29 @@
     "name": "The Alt Protein Project SDSU",
     "description": "The Alt Protein Project is committed to alternative protein education, research, and innovation in an academically intersectional community. Alternative proteins explored include plant-based, cultivated, and fermentation-derived meat, egg, and dairy products.",
     "tags": [
-      "education",
-      "science"
+      "fitness"
     ]
   },
   {
     "name": "The Crisis Carnival",
     "description": "The goal of the Crisis Carnival is to bridge the institutional divide between creatives and foster a stronger arts community on campus and the greater San Diego region. Through hosting showcases and our publication, we intend to promote and celebrate student artists and their work and give them a platform to elevate themselves.",
     "tags": [
-      "media/journalism"
+      "arts",
+      "media production"
     ]
   },
   {
     "name": "The Dignified Learning Project",
     "description": "The purposes of this organization are to challenge education systems that have been intentionally designed to marginalize and minoritize students, stifle creativity and innovation, and perpetuate social and economic inequities. Our aim is to dismantle structural and institutional practices that perpetuate continued unequal access and outcomes. Our endeavors consistently revolve around cultivating a critical imagination that fosters dialogue and engagement for a better tomorrow. We prioritize amplifying the voices and experiences of the community and those most impacted, while resolutely rejecting hierarchical endeavors and mere performativity. At The DLP, we see education as a way to develop endless opportunities and a space to foster dialogue. Education systems need to be redesigned and imagined, going beyond mere reform. Therefore, we aim to utilize an interdisciplinary approach to equity and liberatory education by respecting, building with, and sustaining community efforts and voices. We never believe that we represent communities better than they can themselves, but rather, it is our role to work collaboratively with people and communities. We do this through our student services and programming, educator collaboration, and community-engaged research practices.",
     "tags": [
-      "computer science",
-      "education",
-      "science",
-      "social"
+      "education"
     ]
   },
   {
     "name": "The Geography Club at SDSU",
     "description": "The purpose of this organization is to raise geography awareness and appreciation through various types of on and off-campus activities. We welcome all students interested in geographic exploration and knowledge. Our activities include field trips and socials, guest speakers, career development, volunteering, and community research.",
     "tags": [
-      "computer science",
-      "science"
+      "geography"
     ]
   },
   {
@@ -2991,24 +2882,21 @@
     "name": "The Shifa Society (SDSU Chapter)",
     "description": "The Shifa Society of Muslim Pre-Health Students is a 501(c)(3) nonprofit organization dedicated to the pre-health professional development of members through the abridgment of deen (Islamic religion) with dunya (worldly life) to foster a community of successful health professionals and sustainable Muslims.",
     "tags": [
-      "computer science",
-      "healthcare",
-      "religious/spiritual"
+      "pre-med",
+      "muslim"
     ]
   },
   {
     "name": "The Show",
     "description": "The purposes of this organization are to enhance and engage with SDSU\u2019s Athletic community at sporting events and through social media interactions. The Show strives to provide the best sporting experience for Aztec alumni, current, and future students.",
     "tags": [
-      "media/journalism",
-      "social"
+      "fitness"
     ]
   },
   {
     "name": "The Women's Network (TWN)",
     "description": "A collegiate women's networking organization focused on connecting women to each other and to leaders across many industries, as well as celebrating ambition. We hold a variety of events such as speaker meetings, alumni receptions, and resume workshops.",
     "tags": [
-      "leadership",
       "women empowerment"
     ]
   },
@@ -3016,16 +2904,13 @@
     "name": "Tijuana Home Build",
     "description": "The purposes of this organization are to raise funds to build a home for a family living in dire conditions in Tijuana, Mexico and to provide students with the opportunity to grow their leadership skills and cross-cultural understanding through international volunteer work. TJHB integrates educational components that raise awareness on topics pertaining to homelessness and basic needs in Tijuana, Mexico and San Diego among the general body members as well as the campus community.",
     "tags": [
-      "leadership",
-      "service"
+      "hispanic community"
     ]
   },
   {
     "name": "Transfer Student Outreach Alliance (TSOA)",
     "description": "The purposes of this organization are to provide outreach and mentorship by promoting scholarship, community service, leadership, study abroad, and research opportunities for San Diego State University transfer students and community college students in San Diego County.",
     "tags": [
-      "leadership",
-      "science",
       "service"
     ]
   },
@@ -3033,43 +2918,45 @@
     "name": "TRUTH",
     "description": "The purpose of this organization is to encourage students at San Diego State University to study the Bible, to understand the will of God Elohim, and to advance the Kingdom of God",
     "tags": [
-      "religious/spiritual"
+      "christian"
     ]
   },
   {
     "name": "Turning Point USA at SDSU",
     "description": "To identify, educate, train, and organize students to promote the principles of freedom, free markets, and limited government",
     "tags": [
-      "politics/activism"
+      "business",
+      "marketing",
+      "management"
     ]
   },
   {
     "name": "Twisted Aztecs Motorcycle Club",
     "description": "\u00b7 Promote safe and responsible motorcycle riding. \u00b7 Provide community education on motorcycle safety and awareness. \u00b7 Organize group rides to foster camaraderie among members. \u00b7 Support philanthropic initiatives that align with the club's values.",
     "tags": [
-      "education"
+      "automotive engineering"
     ]
   },
   {
     "name": "UNBND at SDSU",
     "description": "The purpose of this organization is to work to abolish human trafficking and advocate for victims of human trafficking while educating students about the topics of human trafficking. UNBND is dedicated to the freedom and empowerment of Human Trafficking survivors as this is modern-day slavery.",
     "tags": [
-      "women empowerment"
+      "activism",
+      "outreach"
     ]
   },
   {
     "name": "United Sorority & Fraternity Council (USFC)",
     "description": "The purpose of the USFC shall be to assist culturally diverse sororities and fraternities in the achievement of their noble purposes, to provide a forum for the government and the regulation of chapter affairs, to enrich chapter life on campus, to act as liaison between our member chapters and the University administration by establishing a communicative network for all culturally diverse sororities and fraternities, and to promote unity among our chapters and the college community.",
     "tags": [
-      "politics/activism",
-      "social"
+      "co-ed"
     ]
   },
   {
     "name": "Upsilon Kappa Delta Multicultural Sorority",
     "description": "Our mission is to spread multicultural awareness not only to our peers, but our broader community. We strive and offer our services to assist and educate the community we live in. Encouragement of academic excellence and the pursuit of education are highly valued. We constantly up the standards of what a multicultural sorority is by informing and teaching others the definition of multiculturalism as well as continually giving back to the community all while maintaining a sisterhood that is truly 2 tight 2 break.",
     "tags": [
-      "education"
+      "sorority"
     ]
   },
   {
@@ -3084,25 +2971,22 @@
     "name": "Vietnamese Student Association",
     "description": "The mission of the Vietnamese Student Association on the San Diego State University campus is to promote, preserve, and educate others about the Vietnamese culture. We execute events such as social and cultural celebrations in order to serve the local San Diego and larger Southern California population of Asian Pacific Islander (API) and Asian American Pacific Islanders (AAPI).",
     "tags": [
-      "cultural",
-      "social"
+      "vietnamese community"
     ]
   },
   {
     "name": "Volunteers Around the World Global Health Alliances SDSU",
     "description": "Volunteers Around the World is a student run organization that serves to advance interest in the field of medicine though the philanthropic promotion of health in countries across the world. Our focus is to provide communities with access to medical treatment, medication, and health education, while familiarizing students with real-life medical situations involving actual patients. This unique abroad experience permits students to gain invaluable first-hand knowledge of medicine and its practice in foreign countries.",
     "tags": [
-      "education",
-      "healthcare"
+      "outreach",
+      "public health"
     ]
   },
   {
     "name": "Weber Honors College Student Society",
     "description": "The purpose of this organization is to work to ensure that the Weber Honors College fulfills its mission statement and satisfies the expectations of honors students by acting as an advisory board to the Weber Honors College, as the representative body of its members. Through extra-curricular service and social activities, the Weber Honors College strives to create a community of students who take an interest in being responsible and engaged members of their university, greater community, and world.",
     "tags": [
-      "service",
-      "social",
-      "theater"
+      "scholar"
     ]
   },
   {
@@ -3110,7 +2994,6 @@
     "description": "Our mission is to empower and support those who identify as women that are majoring, minoring, or interested in business at San Diego State University. We strive to provide an inclusive space that informs, engages, and guides our members to leadership/career opportunities because we believe in their potential to make a difference.",
     "tags": [
       "business",
-      "leadership",
       "women empowerment"
     ]
   },
@@ -3126,7 +3009,8 @@
     "description": "We aim to empower and inspire women by offering opportunities and support in pursuing a career in Criminal Justice. We hope that through this program, not only will there be an increase in awareness of women\u2019s potential but also that women will be able to recognize their own.",
     "tags": [
       "law",
-      "women empowerment"
+      "women empowerment",
+      "pre-law"
     ]
   },
   {
@@ -3134,7 +3018,6 @@
     "description": "The purpose of Women in Medicine is to empower and uplift fellow aspiring female identifying health providers to work alongside each other rather than against one another. In a competitive field medicine, networking, study buddies and leadership opportunities are essential! So whether you are working towards a goal of obtaining an MD, PT, Dental, Pharmacy, PA, Nursing, Veterinary degree and work in all other healthcare professions, we are hoping to create a sense of community between female students. We are an innovative organization with an emphasis on inclusion for all students and their future healthcare professions. Through our passionate ambitions, we will support all members to achieve leadership within their field in order to surpass prejudice in the medical field.",
     "tags": [
       "healthcare",
-      "leadership",
       "women empowerment"
     ]
   },
@@ -3142,10 +3025,7 @@
     "name": "Women in Physics SDSU",
     "description": "Women in Physics at SDSU will bring together undergraduate students, graduate students, and faculty interested in Physics. Our organization aspires to address the gender gap in physics by bringing women and allies together by creating a community that provides social events, professional development, resources, and performs outreach to inspire younger students to pursue their interests regardless of their backgrounds.",
     "tags": [
-      "computer science",
-      "science",
-      "service",
-      "social",
+      "physics",
       "women empowerment"
     ]
   },
@@ -3153,9 +3033,6 @@
     "name": "Women in Science Society- SDSU (WSS)",
     "description": "This organization is committed to establishing an environment of motivation and mutual support among collegiate women pursuing their degree in the sciences by providing networking, service and leadership opportunities for our members",
     "tags": [
-      "environment",
-      "leadership",
-      "service",
       "women empowerment"
     ]
   },
@@ -3164,9 +3041,6 @@
     "description": "A community of collegiate women focused on entering the sports industry and breaking glass ceilings. Open to all women and non-binary individuals who would like to learn more about the sports industry, network, and build strong professional relationships. Focusing on sports media, marketing, operations, journalism, finance, and other topics.",
     "tags": [
       "business",
-      "media/journalism",
-      "social",
-      "sports",
       "women empowerment"
     ]
   },
@@ -3182,14 +3056,16 @@
     "name": "Women's Beach Volleyball Club at SDSU",
     "description": "to give girls the opportunity to practice and compete in the sport of beach volleyball, which is not currently offered at SDSU",
     "tags": [
-      "sports"
+      "volleyball",
+      "women empowerment"
     ]
   },
   {
     "name": "Women's Running Club at San Diego State University",
     "description": "To empower and bring together SDSU's female population through the sport of running. All levels are welcome at each and every one of our meetings and there is always space for everyone",
     "tags": [
-      "women empowerment"
+      "women empowerment",
+      "running"
     ]
   },
   {
@@ -3203,11 +3079,7 @@
     "name": "World Computing Organization",
     "description": "The purpose of the World Computing Organization is to foster a collaborative environment where students, particularly those in computer science and engineering, can enhance their technical skills, exchange innovative ideas, and work on real-world projects. The club will provide opportunities for members to network with each other and with industry professionals through guest speaker events. Additionally, it will host activities like career fairs and hackathons to help students gain recognition and develop skills critical for their future careers.",
     "tags": [
-      "computer science",
-      "engineering",
-      "environment",
-      "science",
-      "social"
+      "computer science"
     ]
   },
   {
@@ -3215,7 +3087,6 @@
     "description": "The purpose of this organization is to serve as a passionate K-Pop dance collective united by our love for music, dance, and the pursuit of excellence. We prioritize motivation, excellence, and fostering an environment free from discrimination and hate. We stand firm against any form of hate, striving to create a space where every member is valued and respected regardless of their background. Our mission is to uplift, inspire, and shine through the world of K-pop dance.",
     "tags": [
       "dance",
-      "environment",
       "music"
     ]
   },
@@ -3223,27 +3094,21 @@
     "name": "Young Life",
     "description": "Young Life College is a non-denominational organization that offers a community where students can connect with their peers and be encouraged to become young adults who are committed followers of Jesus Christ. There are plenty of ways to get involved: Young Life has weekly club meetings, camps, mission trips and social events such as concerts, bonfires, sporting events, and much more. We want to get to know you personally and give you the opportunity to meet others in the San Diego college community who may become some of your closest friends.",
     "tags": [
-      "social"
+      "christian"
     ]
   },
   {
     "name": "Zeta Beta Tau Fraternity",
     "description": "We, the members of Zeta Beta Tau Fraternity, believe that the development of the individual as a responsible, mature member of society is the primary goal of the University today. We believe that fraternity offers to the university community a unique, desirable and successful means of achieving this goal.",
     "tags": [
-      "computer science"
+      "fraternity"
     ]
   },
   {
     "name": "Zeta Phi Beta Sorority Incorporated",
     "description": "Zeta Phi Beta Sorority, Inc. (\u00bfF\u00bf) was founded on January 16,1920 on the campus of Howard University in Washington D.C. by five visionary women, Arizona Cleaver Stemons, Pearl Anna Neal, Myrtle Tyler Faithful, Viola Tyler Goings and Fannie Pettie Watts. The founders of Zeta Phi Beta possessed strength of character, pride in academic achievement, emphasized a commitment to sisterhood and a demonstrated a true passion for service, a legacy that is still held by the women of Zeta today. The founding principles of Zeta Phi Beta are Scholarship, Service, Sisterhood and the noble concept of Finer Womanhood. Zeta is \u201cA Community-Conscious, Action-Oriented Organization\u201d and is the foremost network of socially and politically conscious women and activists. We care. We act. We help change lives. Zeta Phi Beta Sorority, Incorporated has many trailblazing national programs focused on empowering the disenfranchised, supporting pregnant women of color, providing education on relevant topics and promoting awareness of social injustices. Z-HOPE, or Zetas Helping Other People Excel is an interactive and holistic multidimensional outreach program designed to enhance, cultivate and empower participants to develop healthy lifestyle choices. Stork\u2019s Nest is a national partnership with the March of Dimes and is a community-based prenatal and health promotion program focused on assisting pregnant women whom live in low-income areas. Get Engaged is a social action program mobilized to find new ways to solve old problems that plague the communities we serve. Since its inception, Zeta has continued its steady climb into the national spotlight with programs designed to demonstrate concern for the human condition both nationally and internationally. The organization has been innovative in that it has chronicled a number of firsts. Zeta was the first National Pan-Hellenic Council organization to centralize its operations in a national headquarters, the first to charter a chapter on the continent of Africa (1948), the first to form national youth and auxiliary groups, and the first to be constitutionally bound to a fraternity, Phi Beta Sigma Fraternity, Incorporated, making Zeta Phi Beta and Phi Beta Sigma true brother and sister organizations. Zeta takes pride in its continued participation in transforming communities through volunteerism from members and its auxiliaries. Zeta women are achievers and leaders in every field, with hundreds of chapters chartered worldwide and a membership of 120,000+ strong and growing.",
     "tags": [
-      "education",
-      "healthcare",
-      "lgbtq+",
-      "leadership",
-      "service",
-      "social",
-      "women empowerment"
+      "sorority"
     ]
   }
 ]
