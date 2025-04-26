@@ -3,7 +3,7 @@ import json
 
 def convert_csv_to_json(csv_path, json_path):
     clubs = []
-    with open(csv_path, newline='', encoding='cp1252') as csvfile:  # ← fix encoding here
+    with open(csv_path, newline='', encoding='cp1252') as csvfile:
         reader = csv.DictReader(csvfile)
         print("CSV headers:", reader.fieldnames)
 
@@ -11,7 +11,8 @@ def convert_csv_to_json(csv_path, json_path):
             club = {
                 "name": row.get("Name") or row.get("\ufeffName") or "Unnamed Club",
                 "description": row.get("Purpose", ""),
-                "tags": [tag.strip().lower() for tag in row.get("Tags", "").split(',')]
+                "tags": [tag.strip().lower() for tag in row.get("Tags", "").split(',')],
+                "email": row.get("Email Address", "")  # ✨ new line to grab email
             }
             clubs.append(club)
     

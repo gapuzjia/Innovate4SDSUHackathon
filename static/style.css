@@ -1,13 +1,418 @@
-details {
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    padding: 10px;
-    border-radius: 8px;
-    background-color: #f9f9f9;
-  }
-  
-  summary {
-    cursor: pointer;
-    font-size: 1.1em;
-  }
-  
+body {
+  margin: 0;
+  background: linear-gradient(180deg, #a6192e, #2d2828);
+  font-family: 'Arial', sans-serif;
+  min-height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* --- Swipe Card Page --- */
+#card-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 600px;
+  height: 750px;
+}
+
+#card {
+  background-color: transparent;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  box-shadow: 0px 10px 25px rgba(0,0,0,0.3);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+#card-image {
+  height: 40%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+#card-info {
+  padding: 20px;
+  flex-grow: 1;
+  background: linear-gradient(135deg, #a6192e, #2d2828);
+  color: white;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}
+
+#club-name {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.liked-card .club-description {
+  flex-grow: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 5; /* Limit to 5 lines */
+  -webkit-box-orient: vertical;
+}
+
+
+
+#club-email {
+  margin-top: 10px;
+  font-size: 16px;
+  word-break: break-word;
+}
+
+/* --- Swipe Buttons --- */
+#buttons {
+  position: absolute;
+  bottom: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 150px;
+  box-sizing: border-box;
+}
+
+#buttons button {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  font-size: 70px;
+  background-color: white;
+  border: 3px solid #ccc;
+  color: #333;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+#buttons button:hover {
+  background-color: #f0f0f0;
+  transform: scale(1.1);
+}
+
+#right-button {
+  border-color: #e74c3c;
+  color: #e74c3c;
+}
+
+#left-button {
+  border-color: #999;
+  color: #999;
+}
+
+/* --- Profile Page --- */
+#profile-container {
+  max-width: 70%;
+  margin: 50px auto;
+  padding: 30px 50px;
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+#profile-container h1 {
+  font-size: 32px;
+  margin: 5px 0;
+  color: #333;
+}
+
+#columns-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 30px;
+  width: 100%;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+
+#left-column, #right-column {
+  flex: 1;
+  max-height: 700px;
+  overflow-y: auto;
+  background: #f9f9f9;
+  border-radius: 10px;
+  padding: 0 25px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  font-size: 16px;
+}
+
+#left-column::-webkit-scrollbar,
+#right-column::-webkit-scrollbar {
+  width: 0;
+  background: transparent;
+}
+
+.dropdown {
+  margin-bottom: 3px;
+}
+
+.dropbtn {
+  width: 100%;
+  padding: 20px 30px;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  background-color: #2d2828;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.dropbtn:hover {
+  background-color: #a6192e;
+}
+
+.dropdown-content {
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.4s ease;
+  background: #eef2f7;
+  border-radius: 0 0 10px 10px;
+  padding: 0 10px;
+}
+
+.tag {
+  display: inline-block;
+  margin: 8px 5px;
+  background: #eef2f7;
+  padding: 8px 16px;
+  border-radius: 30px;
+  font-size: 16px;
+  cursor: pointer;
+  border: 2px solid #ccc;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.tag.selected {
+  background: #d6e4f0;
+  border-color: #a6192e;
+}
+
+.chevron {
+  display: inline-block;
+  transition: transform 0.4s ease;
+  margin-left: 8px;
+}
+
+#page-background {
+  background-color: rgb(39, 39, 39); /* <-- your new background color */
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+#start-button {
+  margin-top: 40px;
+  padding: 10px 5px;
+  width: 150px;
+  background-color: #a6192e;
+  color: white;
+  font-size: 22px;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#start-button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+#start-button:hover:not(:disabled) {
+  background-color: #d41736;
+}
+
+/* --- Liked Clubs Page --- */
+#liked-container {
+  max-width: 1200px;
+  margin: 50px auto;
+  padding: 20px;
+  text-align: center;
+  overflow-x: hidden;
+}
+
+#liked-stack {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin-top: 40px;
+  padding-left: 150px;
+}
+
+.liked-card {
+  width: 400px;
+  height: 500px;
+  background: #2d2828;
+  border-radius: 20px;
+  box-shadow: 0 8px 15px rgba(0,0,0,0.1);
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin-left: -120px;
+  z-index: 1;
+  border: 2px solid #000; 
+}
+
+.liked-card:not(:first-child) {
+  margin-left: -140px;
+}
+
+.liked-card:hover {
+  transform: scale(1.08);
+  z-index: 999;
+  box-shadow: 0 12px 20px rgba(0,0,0,0.25);
+  border-color: #a6192e;
+}
+
+.liked-card h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #ffff;
+}
+
+.liked-card .club-description {
+  color: #ffff;; /* Description color */
+}
+
+.liked-card p.email {
+  font-size: 14px;
+  color: #888;
+}
+
+.email {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #888;
+}
+
+.chat-button-wrapper {
+  margin-top: 10px;
+}
+
+.chat-icon-button {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: white;
+  border: 2px solid #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.chat-icon-button:hover {
+  background-color: #a6192e;
+  transform: scale(1.1);
+}
+
+.chat-icon {
+  font-size: 24px;
+  color: #3498db;
+}
+
+.chat-icon-button:hover .chat-icon {
+  color: white;
+}
+
+/* --- Start Over Button --- */
+#start-over {
+  display: inline-block;
+  margin-top: 450px;
+  padding: 12px 30px;
+  background-color: #3498db;
+  color: white;
+  font-size: 18px;
+  border-radius: 30px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+#start-over:hover {
+  background-color: #2980b9;
+}
+
+/* --- Chat Popup Overlay --- */
+#chat-popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+#chat-popup-content {
+  width: 600px;
+  height: 700px;
+  background: white;
+  border-radius: 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+#chat-popup iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+#close-chat {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  font-size: 24px;
+  cursor: pointer;
+  color: #333;
+  z-index: 10;
+}
+
+#splash-screen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #ffffff; /* background color behind image if needed */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  transition: opacity 1s ease;
+  overflow: hidden; /* important to prevent scrollbars */
+}
+
+#splash-screen img {
+  width: 100%; /* <-- make the image take up the full width */
+  height: 100%; /* <-- make the image take up the full height */
+  object-fit: cover; /* <-- cover entire screen without stretching */
+}

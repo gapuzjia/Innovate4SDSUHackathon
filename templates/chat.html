@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Chat</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f5f6fa;
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+    }
+
+    #chat-header {
+      background-color: #a6192e;
+      color: white;
+      padding: 20px;
+      font-size: 24px;
+      font-weight: bold;
+      text-align: center;
+    }
+
+    #chat-messages {
+      flex: 1;
+      padding: 20px;
+      overflow-y: auto;
+      background-color: #ffffff;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .message {
+      max-width: 70%;
+      padding: 12px;
+      border-radius: 15px;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      word-wrap: break-word;
+    }
+
+    .user-name {
+      font-size: 12px;
+      font-weight: bold;
+      margin-bottom: 5px;
+      color: #555;
+    }
+
+    .user-message {
+      background-color: #e1f5fe;
+      align-self: flex-start;
+      color: #333;
+    }
+
+    .club-message {
+      background-color: #d6e4f0;
+      align-self: flex-end;
+      color: #333;
+    }
+
+    #chat-input-area {
+      display: flex;
+      padding: 10px 20px;
+      background-color: #fff;
+      border-top: 1px solid #ccc;
+    }
+
+    #chat-input {
+      flex: 1;
+      padding: 10px;
+      font-size: 16px;
+      border: 1px solid #ccc;
+      border-radius: 20px;
+      outline: none;
+    }
+
+    #send-button {
+      margin-left: 10px;
+      padding: 10px 20px;
+      background-color: #a6192e;
+      border: none;
+      color: white;
+      border-radius: 20px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    #send-button:hover {
+      background-color: #a6192e;
+    }
+  </style>
+</head>
+<body>
+
+<div id="chat-header">
+  {{ club_name }} 💬
+</div>
+
+<div id="chat-messages">
+  <div class="message user-message">
+    <div class="user-name">John</div>
+    Hi! Is anyone going to the club event later? I'd love a buddy!
+  </div>
+
+  <div class="message club-message">
+    <div class="user-name">You</div>
+    Hey! Yeah I'm attending!
+  </div>
+
+  <div class="message user-message">
+    <div class="user-name">Sarah</div>
+    Yay I am too!
+  </div>
+</div>
+
+<div id="chat-input-area">
+  <input type="text" id="chat-input" placeholder="Type a message...">
+  <button id="send-button">Send</button>
+</div>
+
+</body>
+</html>

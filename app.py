@@ -4,7 +4,6 @@ import csv
 import json
 import subprocess
 
-
 app = Flask(__name__)
 model = joblib.load('club_model.pkl')
 
@@ -92,7 +91,7 @@ swipes = {
 }
 
 user_profile = {"tags": []}
-club_roster = []               # Dynamic swipeable list
+club_roster = []
 seen_club_names = set()
 
 # ========================
@@ -101,40 +100,44 @@ seen_club_names = set()
 with open('clubs.json', 'r') as f:
     clubs = json.load(f)
 
-
 # ========================
 # Routes
 # ========================
 @app.route('/')
 def profile():
-    # Retrain the model by running train_model.py
+    # Try retraining model (but don't crash app if fails)
     try:
-        subprocess.run(['python', 'train_model.py'], check=True)
-        print("✅ Retraining successful.")
-    except subprocess.CalledProcessError as e:
-        print("❌ Retraining failed:", e)
+        if os.path.exists('training_data.csv'):
+            subprocess.run(['python', 'train_model.py'], check=True)
+            global model
+            model = joblib.load('club_model.pkl')
+            print("✅ Model retrained.")
+        else:
+            print("")
+    except Exception as e:
+        print("", e)
 
-    # Reload updated model
-    global model
-    model = joblib.load('club_model.pkl')
+    # Split groups into two halves for two columns
+    all_groups = list(tag_groups.items())
+    mid = len(all_groups) // 2
+    left_groups = all_groups[:mid]
+    right_groups = all_groups[mid:]
 
-    return render_template('profile.html', tag_groups=tag_groups)
-
-
+    return render_template('profile.html', 
+                           left_groups=left_groups, 
+                           right_groups=right_groups)
 
 @app.route('/submit_profile', methods=['POST'])
 def submit_profile():
     selected_tags = request.form.getlist('tags')
     user_profile['tags'] = selected_tags
 
-    # Reset all memory
     swipes["right"].clear()
     swipes["left"].clear()
     swipes["tag_scores"].clear()
     club_roster.clear()
-    seen_club_names.clear()  # ← FIXED THIS LINE
+    seen_club_names.clear()
 
-    # Add initial clubs based on profile tags
     for club in clubs:
         if any(tag in club['tags'] for tag in selected_tags):
             if club['name'] not in seen_club_names:
@@ -142,8 +145,6 @@ def submit_profile():
                 seen_club_names.add(club['name'])
 
     return render_template('index.html', clubs=club_roster)
-
-
 
 @app.route('/swipe', methods=['POST'])
 def swipe():
@@ -156,25 +157,21 @@ def swipe():
     if club:
         swipes[direction].append(club_id)
 
-        # Real-time learning via tag_scores
         for tag in club['tags']:
             if tag not in swipes["tag_scores"]:
                 swipes["tag_scores"][tag] = 0
             swipes["tag_scores"][tag] += 1 if direction == "right" else -1
 
-        # Expand club_roster based on swiped-right tags
-        if direction == "right":
+        if direction == "right" and model:
             for tag in club['tags']:
                 for other in clubs:
-                   if tag in other['tags'] and other['name'] not in seen_club_names:
-                    input_text = ' '.join(user_profile['tags']) + ' ' + ' '.join(other['tags'])
-                    prob = model.predict_proba([input_text])[0][1]
-                    if prob > 0.5:  # or adjust threshold to be stricter like 0.6
-                        club_roster.append(other)
-                        seen_club_names.add(other['name'])
+                    if tag in other['tags'] and other['name'] not in seen_club_names:
+                        input_text = ' '.join(user_profile['tags']) + ' ' + ' '.join(other['tags'])
+                        prob = model.predict_proba([input_text])[0][1]
+                        if prob > 0.5:
+                            club_roster.append(other)
+                            seen_club_names.add(other['name'])
 
-
-        # Save swipe for future training
         label = 1 if direction == "right" else 0
         with open('training_data.csv', 'a', newline='') as f:
             writer = csv.writer(f)
@@ -182,11 +179,16 @@ def swipe():
 
     return jsonify({"status": "ok"})
 
-
 @app.route('/saved')
 def saved():
     liked_clubs = [club for club in clubs if club['name'] in swipes['right']]
     return render_template('saved.html', clubs=liked_clubs)
+
+@app.route('/chat')
+def chat():
+    club_name = request.args.get('club', 'Club Chat')  # <-- fallback if none given
+    return render_template('chat.html', club_name=club_name)
+
 
 
 if __name__ == '__main__':

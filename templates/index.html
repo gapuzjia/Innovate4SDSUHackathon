@@ -1,35 +1,102 @@
-<div id="club-card">
-    <h2>{{ clubs[0]['name'] }}</h2>
-    <p>{{ clubs[0]['description'] }}</p>
-    <button onclick="swipe('right')">Interested</button>
-    <button onclick="swipe('left')">Not Interested</button>
-  </div>
-  <script>
-    let current = 0;
-    let clubs = {{ clubs|tojson }};
-  
-    function swipe(direction) {
-      const clubId = clubs[current].name;
-  
-      fetch('/swipe', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ club_id: clubId, direction: direction })
-      }).then(() => {
-        current++;
-        if (current < clubs.length) {
-          updateClubCard();
-        } else {
-          window.location.href = "/saved";  // ⬅️ redirect when done
-        }
-      });
-    }
-  
-    function updateClubCard() {
-      const card = document.getElementById("club-card");
-      card.querySelector("h2").textContent = clubs[current].name;
-      card.querySelector("p").textContent = clubs[current].description;
-    }
-  </script>
-  
-  
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Swipe Clubs</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+<div id="page-background">
+<div id="card-container">
+  <div id="card">
+    <div id="card-image"></div> <!-- New image div -->
+    <div id="card-info">
+        <h2 id="club-name"></h2>
+        <p id="club-description"></p>
+        <p id="club-email" class="club-email"></p>
+    </div>
+</div>
+</div>
+
+<div id="buttons">
+  <button id="left-button" onclick="swipe('left')">✖️</button>
+  <button id="right-button" onclick="swipe('right')">❤️</button>
+</div>
+
+</div>
+</body>
+
+<script>
+const clubs = {{ clubs|tojson }};
+let current = 0;
+
+// 🖼️ Instead of matching tags, just cycle through these images
+const images = [
+  "img1.jpg",
+  "img2.jpg",
+  "img3.jpg",
+  "img4.jpg"
+];
+
+function getImage() {
+  const index = current % images.length;
+  return `/static/images/${images[index]}`;
+}
+
+function updateCard() {
+  if (current >= clubs.length) {
+    window.location.href = "/saved";  
+    return;
+  }
+
+  const club = clubs[current];
+  document.getElementById("club-name").textContent = club.name;
+  document.getElementById("club-description").textContent = club.description;
+  document.getElementById("club-email").textContent = club.email || ""; 
+  document.getElementById("card-image").style.backgroundImage = `url('${getImage()}')`;
+}
+
+function swipe(direction) {
+  const card = document.getElementById("card");
+  const clubId = clubs[current].name;
+
+  card.style.transition = "transform 0.5s ease-out, opacity 0.5s ease-out";
+
+  if (direction === "right") {
+    card.style.transform = "translateX(1000px) rotate(20deg)";
+  } else {
+    card.style.transform = "translateX(-1000px) rotate(-20deg)";
+  }
+  card.style.opacity = 0;
+
+  setTimeout(() => {
+    fetch('/swipe', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ club_id: clubId, direction: direction })
+    }).then(() => {
+      current++;
+      card.style.transition = "none";
+      card.style.transform = "translateX(0) rotate(0deg)";
+      card.style.opacity = 1;
+      updateCard();
+    });
+  }, 500);
+}
+
+updateCard();
+
+// Allow left/right arrow keys to swipe
+document.addEventListener('keydown', function(event) {
+  if (event.key === "ArrowLeft") {
+    swipe('left');
+  } else if (event.key === "ArrowRight") {
+    swipe('right');
+  }
+});
+
+</script>
+
+</body>
+</html>

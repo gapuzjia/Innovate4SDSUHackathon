@@ -1,15 +1,120 @@
-<h2>Select Your Interests</h2>
-<form action="/submit_profile" method="post">
-  {% for group, tags in tag_groups.items() %}
-    <details>
-      <summary><strong>{{ group }}</strong></summary>
-      {% for tag in tags %}
-        <label>
-          <input type="checkbox" name="tags" value="{{ tag }}"> {{ tag.title() }}
-        </label><br>
-      {% endfor %}
-    </details>
-    <br>
-  {% endfor %}
-  <button type="submit">Start Swiping</button>
-</form>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Create Your Profile</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+  <div id="splash-screen">
+    <img src="/static/spash.jpg" alt="Splash Image">
+  </div>
+  
+
+<div id="profile-container">
+    <h1>What are you looking for?</h1>
+    <form action="/submit_profile" method="POST">
+      
+      <div id="main-wrapper"> <!-- NEW WRAPPER FLEX -->
+
+        <div id="columns-wrapper">
+
+          <!-- Left Column -->
+          <div id="left-column">
+              {% for group, tags in left_groups %}
+              <div class="dropdown">
+                <button type="button" class="dropbtn" onclick="toggleDropdown('{{ group|replace(' ', '') }}', this)">
+                  {{ group }}
+                  <span class="chevron">⮟</span>
+                </button>              
+                <div id="{{ group|replace(' ', '') }}" class="dropdown-content">
+                    {% for tag in tags %}
+                    <div class="tag" onclick="toggleTag(this)">
+                      <input type="checkbox" name="tags" value="{{ tag }}" style="display: none;">
+                      {{ tag }}
+                    </div>                    
+                    {% endfor %}
+                </div>
+              </div>
+              {% endfor %}
+          </div>
+
+          <!-- Right Column -->
+          <div id="right-column">
+              {% for group, tags in right_groups %}
+              <div class="dropdown">
+                <button type="button" class="dropbtn" onclick="toggleDropdown('{{ group|replace(' ', '') }}', this)">
+                  {{ group }}
+                  <span class="chevron">⮟</span>
+                </button>              
+                <div id="{{ group|replace(' ', '') }}" class="dropdown-content">
+                    {% for tag in tags %}
+                    <div class="tag" onclick="toggleTag(this)">
+                      <input type="checkbox" name="tags" value="{{ tag }}" style="display: none;">
+                      {{ tag }}
+                    </div>
+                    {% endfor %}
+                </div>
+              </div>
+              {% endfor %}
+          </div>
+
+        </div> <!-- End of columns-wrapper -->
+
+        <!-- ✅ Done Button on Right -->
+        <div id="done-button-container">
+          <button id="start-button" type="submit" disabled>Find clubs!</button>
+        </div>
+
+      </div> <!-- End of main-wrapper -->
+
+    </form> <!-- closes the form -->
+
+</div> <!-- closes profile-container -->
+
+<!-- Javascript Section -->
+<script>
+function toggleDropdown(id, button) {
+  var content = document.getElementById(id);
+  var chevron = button.querySelector('.chevron');
+
+  if (content.style.maxHeight) {
+      content.style.maxHeight = null; // collapse
+      chevron.style.transform = "rotate(0deg)";
+  } else {
+      content.style.maxHeight = content.scrollHeight + "px"; // expand
+      chevron.style.transform = "rotate(180deg)";
+  }
+}
+
+function toggleTag(tagDiv) {
+  const checkbox = tagDiv.querySelector('input');
+  checkbox.checked = !checkbox.checked;
+  tagDiv.classList.toggle('selected', checkbox.checked);
+
+  // ✅ Enable/disable Done button
+  const selectedTags = document.querySelectorAll('.tag.selected');
+  const doneButton = document.getElementById('start-button');
+  if (selectedTags.length > 0) {
+    doneButton.disabled = false;
+  } else {
+    doneButton.disabled = true;
+  }
+}
+
+// Fade out splash screen after 3 seconds
+window.addEventListener('load', function() {
+  setTimeout(function() {
+    const splash = document.getElementById('splash-screen');
+    splash.style.opacity = '0';
+    setTimeout(() => {
+      splash.style.display = 'none';
+    }, 1000); // match the transition time (1s)
+  }, 3000); // 3 seconds
+});
+
+</script>
+
+</body>
+</html>
